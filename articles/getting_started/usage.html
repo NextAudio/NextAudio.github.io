@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Usage | NextAudio Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Usage | NextAudio Documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jordnkr/collapsible/master/collapsible.css"></head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/icon.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="usage">Usage</h2>
+
+<h4 id="audiostream">AudioStream</h4>
+<p>NextAudio uses <code>AudioStream</code> instead raw <code>Stream</code> class because <code>Stream</code> has a lot of unnecessary methods to coverage.</p>
+<p>The <code>AudioStream</code> also have an additional <code>SeekAsync</code> method for streams which support asynchronous seeking.</p>
+<h4 id="stream">Stream</h4>
+<p>The <code>AudioStream</code> class has all implict casts if you need an <code>AudioStream</code> from a <code>Stream</code>, or you can do this manually with:</p>
+<pre><code class="lang-csharp">AudioStream.CreateFromStream(stream);
+</code></pre>
+<p>You can also pass some options for this <code>AudioStream</code> with the <code>StreamToAudioStreamOptions</code> class:</p>
+<pre><code class="lang-csharp">AudioStream.CreateFromStream(stream, new StreamToAudioStreamOptions
+{
+  DisposeSourceStream = true,
+  RecommendedSynchronicity = RecommendedSynchronicity.Any,
+  LoggerFactory = NullLoggerFactory.Instance,
+});
+</code></pre>
+<p>The default options will be used if you use any implicit cast.</p>
+<p>The inverse is true too, and you can use any implicit cast if you wanna a <code>Stream</code> from an <code>AudioStream</code> or you can do this manually with:</p>
+<pre><code class="lang-csharp">audioStream.CastToStream();
+
+// Or statically:
+AudioStream.CastToStream(audioStream);
+</code></pre>
+<p>You can also pass some options for this <code>Stream</code> with the <code>AudioStreamToStreamOptions</code> class:</p>
+<pre><code class="lang-csharp">audioStream.CastToStream(new AudioStreamToStreamOptions
+{
+  DisposeSourceStream = true,
+});
+</code></pre>
+<p>The default options will be used if you use any implicit cast.</p>
+<h4 id="file">File</h4>
+<p>You can also create an <code>AudioStream</code> from a file path with:</p>
+<pre><code class="lang-csharp">AudioStream.CreateFromFile(&quot;filePath&quot;);
+</code></pre>
+<p>File audio streams supports the <code>FileAudioStreamOptions</code> options or the native class <code>FileStreamOptions</code>, we recommend the <code>FileAudioStreamOptions</code> because this class already cover all options present in <code>FileStreamOptions</code>.</p>
+<pre><code class="lang-csharp">AudioStream.CreateFromFile(&quot;filePath&quot;, new FileAudioStreamOptions
+{
+  Mode = FileMode.Open,
+  Access = FileAccess.Read,
+  Share = FileShare.Read,
+  FileOptions = FileOptions.None,
+  PreallocationSize = 0,
+  BufferSize = 4096,
+  DisposeSourceStream = true,
+  RecommendedSynchronicity = RecommendedSynchronicity.Sync,
+  LoggerFactory = NullLoggerFactory.Instance,
+});
+</code></pre>
+<p>The default options will be used if you use the create method without any options set.</p>
+<h4 id="audiodemuxers">AudioDemuxers</h4>
+<p>Any container demuxer inherits from the <code>AudioDemuxer</code> class, this class has <code>Demux</code> or <code>DemuxAsync</code> methods instead <code>Read</code> and <code>ReadAsync</code> (yes, you can continue use these methods normally).</p>
+<p>Any <code>Seek/SeekAsync</code> operation for streams positions is not supported.</p>
+<h4 id="recommendedsynchronicity">RecommendedSynchronicity</h4>
+<p>The property <code>RecommendedSynchronicity</code> is present in any <code>AudioStream</code> it says to you or for the internal lib what is the recommended synchronicity when reading from the <code>AudioStream</code> or writing in.</p>
+<p>Obs: The lib supports both synchronicitys but some streams doesn't recommend some synchronicitys, (e.g an async-only stream will have your sync operations using <code>.GetAwaiter().GetResult()</code>).</p>
+<h4 id="manually-readingwriting">Manually reading/writing</h4>
+<p>NextAudio will always use audio frame buffers for read/write operations.</p>
+<p>This makes the streaming data very easy.</p>
+<pre><code class="lang-csharp">using var output = new MemoryStream();
+using var file = AudioStream.CreateFromFile(&quot;test1.mkv&quot;);
+using var reader = new SomeAudioReadStreamType(file);
+
+var bytesRead = 0;
+Span&lt;byte&gt; buffer = new byte[1024]; // We recommend a buffer size at least 1024 bytes.
+
+while ((bytesRead = reader.Read(buffer)) &gt; 0)
+{
+    // Always slice the buffer to bytesRead,
+    // the lib always will return an audio frame
+    // when using a read operation.
+    var frame = buffer.Slice(0, bytesRead);
+    output.Write(frame);
+}
+</code></pre>
+<hr><p>This page was last modified at 10/19/2022 10:45:13 PM -03:00 (UTC).</p><div class="collapse-container last-modified" id="accordion"><span><span class="arrow-r"></span>Commit Message</span><div><pre><code>Author:    Renan Pinheiro
+Commit:    3316e316f457719510a1a186bf3f410796a8341e
+</code></pre><pre><code class="xml">feat: add matroska doc
+</code></pre></div></div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/NextAudio/NextAudio/blob/72-write-docs-guides/docs/articles/getting_started/usage.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              NextAudio (c) 2022
+              
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).collapsible();
+  } );</script><script type="text/javascript" src="https://cdn.rawgit.com/jordnkr/collapsible/master/jquery.collapsible.min.js"></script></body>
+</html>

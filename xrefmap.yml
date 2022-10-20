@@ -1,0 +1,1238 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: NextAudio
+  name: NextAudio
+  href: api/NextAudio.html
+  commentId: N:NextAudio
+  fullName: NextAudio
+  nameWithType: NextAudio
+- uid: NextAudio.AudioDemuxer
+  name: AudioDemuxer
+  href: api/NextAudio.AudioDemuxer.html
+  commentId: T:NextAudio.AudioDemuxer
+  fullName: NextAudio.AudioDemuxer
+  nameWithType: AudioDemuxer
+- uid: NextAudio.AudioDemuxer.Demux(Span{System.Byte})
+  name: Demux(Span<Byte>)
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_Demux_Span_System_Byte__
+  commentId: M:NextAudio.AudioDemuxer.Demux(Span{System.Byte})
+  name.vb: Demux(Span(Of Byte))
+  fullName: NextAudio.AudioDemuxer.Demux(Span<System.Byte>)
+  fullName.vb: NextAudio.AudioDemuxer.Demux(Span(Of System.Byte))
+  nameWithType: AudioDemuxer.Demux(Span<Byte>)
+  nameWithType.vb: AudioDemuxer.Demux(Span(Of Byte))
+- uid: NextAudio.AudioDemuxer.Demux(System.Byte[],System.Int32,System.Int32)
+  name: Demux(Byte[], Int32, Int32)
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_Demux_System_Byte___System_Int32_System_Int32_
+  commentId: M:NextAudio.AudioDemuxer.Demux(System.Byte[],System.Int32,System.Int32)
+  name.vb: Demux(Byte(), Int32, Int32)
+  fullName: NextAudio.AudioDemuxer.Demux(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: NextAudio.AudioDemuxer.Demux(System.Byte(), System.Int32, System.Int32)
+  nameWithType: AudioDemuxer.Demux(Byte[], Int32, Int32)
+  nameWithType.vb: AudioDemuxer.Demux(Byte(), Int32, Int32)
+- uid: NextAudio.AudioDemuxer.Demux*
+  name: Demux
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_Demux_
+  commentId: Overload:NextAudio.AudioDemuxer.Demux
+  isSpec: "True"
+  fullName: NextAudio.AudioDemuxer.Demux
+  nameWithType: AudioDemuxer.Demux
+- uid: NextAudio.AudioDemuxer.DemuxAsync(Memory{System.Byte},CancellationToken)
+  name: DemuxAsync(Memory<Byte>, CancellationToken)
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_DemuxAsync_Memory_System_Byte__CancellationToken_
+  commentId: M:NextAudio.AudioDemuxer.DemuxAsync(Memory{System.Byte},CancellationToken)
+  name.vb: DemuxAsync(Memory(Of Byte), CancellationToken)
+  fullName: NextAudio.AudioDemuxer.DemuxAsync(Memory<System.Byte>, CancellationToken)
+  fullName.vb: NextAudio.AudioDemuxer.DemuxAsync(Memory(Of System.Byte), CancellationToken)
+  nameWithType: AudioDemuxer.DemuxAsync(Memory<Byte>, CancellationToken)
+  nameWithType.vb: AudioDemuxer.DemuxAsync(Memory(Of Byte), CancellationToken)
+- uid: NextAudio.AudioDemuxer.DemuxAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  name: DemuxAsync(Byte[], Int32, Int32, CancellationToken)
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_DemuxAsync_System_Byte___System_Int32_System_Int32_CancellationToken_
+  commentId: M:NextAudio.AudioDemuxer.DemuxAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  name.vb: DemuxAsync(Byte(), Int32, Int32, CancellationToken)
+  fullName: NextAudio.AudioDemuxer.DemuxAsync(System.Byte[], System.Int32, System.Int32, CancellationToken)
+  fullName.vb: NextAudio.AudioDemuxer.DemuxAsync(System.Byte(), System.Int32, System.Int32, CancellationToken)
+  nameWithType: AudioDemuxer.DemuxAsync(Byte[], Int32, Int32, CancellationToken)
+  nameWithType.vb: AudioDemuxer.DemuxAsync(Byte(), Int32, Int32, CancellationToken)
+- uid: NextAudio.AudioDemuxer.DemuxAsync*
+  name: DemuxAsync
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_DemuxAsync_
+  commentId: Overload:NextAudio.AudioDemuxer.DemuxAsync
+  isSpec: "True"
+  fullName: NextAudio.AudioDemuxer.DemuxAsync
+  nameWithType: AudioDemuxer.DemuxAsync
+- uid: NextAudio.AudioDemuxer.Read(Span{System.Byte})
+  name: Read(Span<Byte>)
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_Read_Span_System_Byte__
+  commentId: M:NextAudio.AudioDemuxer.Read(Span{System.Byte})
+  name.vb: Read(Span(Of Byte))
+  fullName: NextAudio.AudioDemuxer.Read(Span<System.Byte>)
+  fullName.vb: NextAudio.AudioDemuxer.Read(Span(Of System.Byte))
+  nameWithType: AudioDemuxer.Read(Span<Byte>)
+  nameWithType.vb: AudioDemuxer.Read(Span(Of Byte))
+- uid: NextAudio.AudioDemuxer.Read*
+  name: Read
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_Read_
+  commentId: Overload:NextAudio.AudioDemuxer.Read
+  isSpec: "True"
+  fullName: NextAudio.AudioDemuxer.Read
+  nameWithType: AudioDemuxer.Read
+- uid: NextAudio.AudioDemuxer.ReadAsync(Memory{System.Byte},CancellationToken)
+  name: ReadAsync(Memory<Byte>, CancellationToken)
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_ReadAsync_Memory_System_Byte__CancellationToken_
+  commentId: M:NextAudio.AudioDemuxer.ReadAsync(Memory{System.Byte},CancellationToken)
+  name.vb: ReadAsync(Memory(Of Byte), CancellationToken)
+  fullName: NextAudio.AudioDemuxer.ReadAsync(Memory<System.Byte>, CancellationToken)
+  fullName.vb: NextAudio.AudioDemuxer.ReadAsync(Memory(Of System.Byte), CancellationToken)
+  nameWithType: AudioDemuxer.ReadAsync(Memory<Byte>, CancellationToken)
+  nameWithType.vb: AudioDemuxer.ReadAsync(Memory(Of Byte), CancellationToken)
+- uid: NextAudio.AudioDemuxer.ReadAsync*
+  name: ReadAsync
+  href: api/NextAudio.AudioDemuxer.html#NextAudio_AudioDemuxer_ReadAsync_
+  commentId: Overload:NextAudio.AudioDemuxer.ReadAsync
+  isSpec: "True"
+  fullName: NextAudio.AudioDemuxer.ReadAsync
+  nameWithType: AudioDemuxer.ReadAsync
+- uid: NextAudio.AudioStream
+  name: AudioStream
+  href: api/NextAudio.AudioStream.html
+  commentId: T:NextAudio.AudioStream
+  fullName: NextAudio.AudioStream
+  nameWithType: AudioStream
+- uid: NextAudio.AudioStream.#ctor
+  name: AudioStream()
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream__ctor
+  commentId: M:NextAudio.AudioStream.#ctor
+  fullName: NextAudio.AudioStream.AudioStream()
+  nameWithType: AudioStream.AudioStream()
+- uid: NextAudio.AudioStream.#ctor(ILoggerFactory)
+  name: AudioStream(ILoggerFactory)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream__ctor_ILoggerFactory_
+  commentId: M:NextAudio.AudioStream.#ctor(ILoggerFactory)
+  fullName: NextAudio.AudioStream.AudioStream(ILoggerFactory)
+  nameWithType: AudioStream.AudioStream(ILoggerFactory)
+- uid: NextAudio.AudioStream.#ctor*
+  name: AudioStream
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream__ctor_
+  commentId: Overload:NextAudio.AudioStream.#ctor
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.AudioStream
+  nameWithType: AudioStream.AudioStream
+- uid: NextAudio.AudioStream._loggerFactory
+  name: _loggerFactory
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream__loggerFactory
+  commentId: F:NextAudio.AudioStream._loggerFactory
+  fullName: NextAudio.AudioStream._loggerFactory
+  nameWithType: AudioStream._loggerFactory
+- uid: NextAudio.AudioStream.CanRead
+  name: CanRead
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_CanRead
+  commentId: P:NextAudio.AudioStream.CanRead
+  fullName: NextAudio.AudioStream.CanRead
+  nameWithType: AudioStream.CanRead
+- uid: NextAudio.AudioStream.CanRead*
+  name: CanRead
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_CanRead_
+  commentId: Overload:NextAudio.AudioStream.CanRead
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.CanRead
+  nameWithType: AudioStream.CanRead
+- uid: NextAudio.AudioStream.CanSeek
+  name: CanSeek
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_CanSeek
+  commentId: P:NextAudio.AudioStream.CanSeek
+  fullName: NextAudio.AudioStream.CanSeek
+  nameWithType: AudioStream.CanSeek
+- uid: NextAudio.AudioStream.CanSeek*
+  name: CanSeek
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_CanSeek_
+  commentId: Overload:NextAudio.AudioStream.CanSeek
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.CanSeek
+  nameWithType: AudioStream.CanSeek
+- uid: NextAudio.AudioStream.CanWrite
+  name: CanWrite
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_CanWrite
+  commentId: P:NextAudio.AudioStream.CanWrite
+  fullName: NextAudio.AudioStream.CanWrite
+  nameWithType: AudioStream.CanWrite
+- uid: NextAudio.AudioStream.CanWrite*
+  name: CanWrite
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_CanWrite_
+  commentId: Overload:NextAudio.AudioStream.CanWrite
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.CanWrite
+  nameWithType: AudioStream.CanWrite
+- uid: NextAudio.AudioStream.Clone
+  name: Clone()
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Clone
+  commentId: M:NextAudio.AudioStream.Clone
+  fullName: NextAudio.AudioStream.Clone()
+  nameWithType: AudioStream.Clone()
+- uid: NextAudio.AudioStream.Clone*
+  name: Clone
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Clone_
+  commentId: Overload:NextAudio.AudioStream.Clone
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.Clone
+  nameWithType: AudioStream.Clone
+- uid: NextAudio.AudioStream.Dispose
+  name: Dispose()
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Dispose
+  commentId: M:NextAudio.AudioStream.Dispose
+  fullName: NextAudio.AudioStream.Dispose()
+  nameWithType: AudioStream.Dispose()
+- uid: NextAudio.AudioStream.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Dispose_System_Boolean_
+  commentId: M:NextAudio.AudioStream.Dispose(System.Boolean)
+  fullName: NextAudio.AudioStream.Dispose(System.Boolean)
+  nameWithType: AudioStream.Dispose(Boolean)
+- uid: NextAudio.AudioStream.Dispose*
+  name: Dispose
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Dispose_
+  commentId: Overload:NextAudio.AudioStream.Dispose
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.Dispose
+  nameWithType: AudioStream.Dispose
+- uid: NextAudio.AudioStream.DisposeAsync
+  name: DisposeAsync()
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_DisposeAsync
+  commentId: M:NextAudio.AudioStream.DisposeAsync
+  fullName: NextAudio.AudioStream.DisposeAsync()
+  nameWithType: AudioStream.DisposeAsync()
+- uid: NextAudio.AudioStream.DisposeAsync*
+  name: DisposeAsync
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_DisposeAsync_
+  commentId: Overload:NextAudio.AudioStream.DisposeAsync
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.DisposeAsync
+  nameWithType: AudioStream.DisposeAsync
+- uid: NextAudio.AudioStream.DisposeAsyncCore
+  name: DisposeAsyncCore()
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_DisposeAsyncCore
+  commentId: M:NextAudio.AudioStream.DisposeAsyncCore
+  fullName: NextAudio.AudioStream.DisposeAsyncCore()
+  nameWithType: AudioStream.DisposeAsyncCore()
+- uid: NextAudio.AudioStream.DisposeAsyncCore*
+  name: DisposeAsyncCore
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_DisposeAsyncCore_
+  commentId: Overload:NextAudio.AudioStream.DisposeAsyncCore
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.DisposeAsyncCore
+  nameWithType: AudioStream.DisposeAsyncCore
+- uid: NextAudio.AudioStream.Finalize
+  name: Finalize()
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Finalize
+  commentId: M:NextAudio.AudioStream.Finalize
+  fullName: NextAudio.AudioStream.Finalize()
+  nameWithType: AudioStream.Finalize()
+- uid: NextAudio.AudioStream.Finalize*
+  name: Finalize
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Finalize_
+  commentId: Overload:NextAudio.AudioStream.Finalize
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.Finalize
+  nameWithType: AudioStream.Finalize
+- uid: NextAudio.AudioStream.IsDisposed
+  name: IsDisposed
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_IsDisposed
+  commentId: P:NextAudio.AudioStream.IsDisposed
+  fullName: NextAudio.AudioStream.IsDisposed
+  nameWithType: AudioStream.IsDisposed
+- uid: NextAudio.AudioStream.IsDisposed*
+  name: IsDisposed
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_IsDisposed_
+  commentId: Overload:NextAudio.AudioStream.IsDisposed
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.IsDisposed
+  nameWithType: AudioStream.IsDisposed
+- uid: NextAudio.AudioStream.Length
+  name: Length
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Length
+  commentId: P:NextAudio.AudioStream.Length
+  fullName: NextAudio.AudioStream.Length
+  nameWithType: AudioStream.Length
+- uid: NextAudio.AudioStream.Length*
+  name: Length
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Length_
+  commentId: Overload:NextAudio.AudioStream.Length
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.Length
+  nameWithType: AudioStream.Length
+- uid: NextAudio.AudioStream.op_Implicit(NextAudio.AudioStream)~Stream
+  name: Implicit(AudioStream to Stream)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_op_Implicit_NextAudio_AudioStream__Stream
+  commentId: M:NextAudio.AudioStream.op_Implicit(NextAudio.AudioStream)~Stream
+  name.vb: Widening(AudioStream to Stream)
+  fullName: NextAudio.AudioStream.Implicit(NextAudio.AudioStream to Stream)
+  fullName.vb: NextAudio.AudioStream.Widening(NextAudio.AudioStream to Stream)
+  nameWithType: AudioStream.Implicit(AudioStream to Stream)
+  nameWithType.vb: AudioStream.Widening(AudioStream to Stream)
+- uid: NextAudio.AudioStream.op_Implicit*
+  name: Implicit
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_op_Implicit_
+  commentId: Overload:NextAudio.AudioStream.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: NextAudio.AudioStream.Implicit
+  fullName.vb: NextAudio.AudioStream.Widening
+  nameWithType: AudioStream.Implicit
+  nameWithType.vb: AudioStream.Widening
+- uid: NextAudio.AudioStream.Position
+  name: Position
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Position
+  commentId: P:NextAudio.AudioStream.Position
+  fullName: NextAudio.AudioStream.Position
+  nameWithType: AudioStream.Position
+- uid: NextAudio.AudioStream.Position*
+  name: Position
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Position_
+  commentId: Overload:NextAudio.AudioStream.Position
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.Position
+  nameWithType: AudioStream.Position
+- uid: NextAudio.AudioStream.Read(Span{System.Byte})
+  name: Read(Span<Byte>)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Read_Span_System_Byte__
+  commentId: M:NextAudio.AudioStream.Read(Span{System.Byte})
+  name.vb: Read(Span(Of Byte))
+  fullName: NextAudio.AudioStream.Read(Span<System.Byte>)
+  fullName.vb: NextAudio.AudioStream.Read(Span(Of System.Byte))
+  nameWithType: AudioStream.Read(Span<Byte>)
+  nameWithType.vb: AudioStream.Read(Span(Of Byte))
+- uid: NextAudio.AudioStream.Read(System.Byte[],System.Int32,System.Int32)
+  name: Read(Byte[], Int32, Int32)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Read_System_Byte___System_Int32_System_Int32_
+  commentId: M:NextAudio.AudioStream.Read(System.Byte[],System.Int32,System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  fullName: NextAudio.AudioStream.Read(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: NextAudio.AudioStream.Read(System.Byte(), System.Int32, System.Int32)
+  nameWithType: AudioStream.Read(Byte[], Int32, Int32)
+  nameWithType.vb: AudioStream.Read(Byte(), Int32, Int32)
+- uid: NextAudio.AudioStream.Read*
+  name: Read
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Read_
+  commentId: Overload:NextAudio.AudioStream.Read
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.Read
+  nameWithType: AudioStream.Read
+- uid: NextAudio.AudioStream.ReadAsync(Memory{System.Byte},CancellationToken)
+  name: ReadAsync(Memory<Byte>, CancellationToken)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_ReadAsync_Memory_System_Byte__CancellationToken_
+  commentId: M:NextAudio.AudioStream.ReadAsync(Memory{System.Byte},CancellationToken)
+  name.vb: ReadAsync(Memory(Of Byte), CancellationToken)
+  fullName: NextAudio.AudioStream.ReadAsync(Memory<System.Byte>, CancellationToken)
+  fullName.vb: NextAudio.AudioStream.ReadAsync(Memory(Of System.Byte), CancellationToken)
+  nameWithType: AudioStream.ReadAsync(Memory<Byte>, CancellationToken)
+  nameWithType.vb: AudioStream.ReadAsync(Memory(Of Byte), CancellationToken)
+- uid: NextAudio.AudioStream.ReadAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  name: ReadAsync(Byte[], Int32, Int32, CancellationToken)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_ReadAsync_System_Byte___System_Int32_System_Int32_CancellationToken_
+  commentId: M:NextAudio.AudioStream.ReadAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  name.vb: ReadAsync(Byte(), Int32, Int32, CancellationToken)
+  fullName: NextAudio.AudioStream.ReadAsync(System.Byte[], System.Int32, System.Int32, CancellationToken)
+  fullName.vb: NextAudio.AudioStream.ReadAsync(System.Byte(), System.Int32, System.Int32, CancellationToken)
+  nameWithType: AudioStream.ReadAsync(Byte[], Int32, Int32, CancellationToken)
+  nameWithType.vb: AudioStream.ReadAsync(Byte(), Int32, Int32, CancellationToken)
+- uid: NextAudio.AudioStream.ReadAsync*
+  name: ReadAsync
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_ReadAsync_
+  commentId: Overload:NextAudio.AudioStream.ReadAsync
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.ReadAsync
+  nameWithType: AudioStream.ReadAsync
+- uid: NextAudio.AudioStream.Seek(System.Int64,SeekOrigin)
+  name: Seek(Int64, SeekOrigin)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Seek_System_Int64_SeekOrigin_
+  commentId: M:NextAudio.AudioStream.Seek(System.Int64,SeekOrigin)
+  fullName: NextAudio.AudioStream.Seek(System.Int64, SeekOrigin)
+  nameWithType: AudioStream.Seek(Int64, SeekOrigin)
+- uid: NextAudio.AudioStream.Seek*
+  name: Seek
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Seek_
+  commentId: Overload:NextAudio.AudioStream.Seek
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.Seek
+  nameWithType: AudioStream.Seek
+- uid: NextAudio.AudioStream.Write(ReadOnlySpan{System.Byte})
+  name: Write(ReadOnlySpan<Byte>)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Write_ReadOnlySpan_System_Byte__
+  commentId: M:NextAudio.AudioStream.Write(ReadOnlySpan{System.Byte})
+  name.vb: Write(ReadOnlySpan(Of Byte))
+  fullName: NextAudio.AudioStream.Write(ReadOnlySpan<System.Byte>)
+  fullName.vb: NextAudio.AudioStream.Write(ReadOnlySpan(Of System.Byte))
+  nameWithType: AudioStream.Write(ReadOnlySpan<Byte>)
+  nameWithType.vb: AudioStream.Write(ReadOnlySpan(Of Byte))
+- uid: NextAudio.AudioStream.Write(System.Byte[],System.Int32,System.Int32)
+  name: Write(Byte[], Int32, Int32)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Write_System_Byte___System_Int32_System_Int32_
+  commentId: M:NextAudio.AudioStream.Write(System.Byte[],System.Int32,System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: NextAudio.AudioStream.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: NextAudio.AudioStream.Write(System.Byte(), System.Int32, System.Int32)
+  nameWithType: AudioStream.Write(Byte[], Int32, Int32)
+  nameWithType.vb: AudioStream.Write(Byte(), Int32, Int32)
+- uid: NextAudio.AudioStream.Write*
+  name: Write
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_Write_
+  commentId: Overload:NextAudio.AudioStream.Write
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.Write
+  nameWithType: AudioStream.Write
+- uid: NextAudio.AudioStream.WriteAsync(ReadOnlyMemory{System.Byte},CancellationToken)
+  name: WriteAsync(ReadOnlyMemory<Byte>, CancellationToken)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_WriteAsync_ReadOnlyMemory_System_Byte__CancellationToken_
+  commentId: M:NextAudio.AudioStream.WriteAsync(ReadOnlyMemory{System.Byte},CancellationToken)
+  name.vb: WriteAsync(ReadOnlyMemory(Of Byte), CancellationToken)
+  fullName: NextAudio.AudioStream.WriteAsync(ReadOnlyMemory<System.Byte>, CancellationToken)
+  fullName.vb: NextAudio.AudioStream.WriteAsync(ReadOnlyMemory(Of System.Byte), CancellationToken)
+  nameWithType: AudioStream.WriteAsync(ReadOnlyMemory<Byte>, CancellationToken)
+  nameWithType.vb: AudioStream.WriteAsync(ReadOnlyMemory(Of Byte), CancellationToken)
+- uid: NextAudio.AudioStream.WriteAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  name: WriteAsync(Byte[], Int32, Int32, CancellationToken)
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_WriteAsync_System_Byte___System_Int32_System_Int32_CancellationToken_
+  commentId: M:NextAudio.AudioStream.WriteAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)
+  name.vb: WriteAsync(Byte(), Int32, Int32, CancellationToken)
+  fullName: NextAudio.AudioStream.WriteAsync(System.Byte[], System.Int32, System.Int32, CancellationToken)
+  fullName.vb: NextAudio.AudioStream.WriteAsync(System.Byte(), System.Int32, System.Int32, CancellationToken)
+  nameWithType: AudioStream.WriteAsync(Byte[], Int32, Int32, CancellationToken)
+  nameWithType.vb: AudioStream.WriteAsync(Byte(), Int32, Int32, CancellationToken)
+- uid: NextAudio.AudioStream.WriteAsync*
+  name: WriteAsync
+  href: api/NextAudio.AudioStream.html#NextAudio_AudioStream_WriteAsync_
+  commentId: Overload:NextAudio.AudioStream.WriteAsync
+  isSpec: "True"
+  fullName: NextAudio.AudioStream.WriteAsync
+  nameWithType: AudioStream.WriteAsync
+- uid: NextAudio.Matroska
+  name: NextAudio.Matroska
+  href: api/NextAudio.Matroska.html
+  commentId: N:NextAudio.Matroska
+  fullName: NextAudio.Matroska
+  nameWithType: NextAudio.Matroska
+- uid: NextAudio.Matroska.EbmlReader
+  name: EbmlReader
+  href: api/NextAudio.Matroska.EbmlReader.html
+  commentId: T:NextAudio.Matroska.EbmlReader
+  fullName: NextAudio.Matroska.EbmlReader
+  nameWithType: EbmlReader
+- uid: NextAudio.Matroska.EbmlReader.ReadAsciiString(ReadOnlySpan{System.Byte})
+  name: ReadAsciiString(ReadOnlySpan<Byte>)
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadAsciiString_ReadOnlySpan_System_Byte__
+  commentId: M:NextAudio.Matroska.EbmlReader.ReadAsciiString(ReadOnlySpan{System.Byte})
+  name.vb: ReadAsciiString(ReadOnlySpan(Of Byte))
+  fullName: NextAudio.Matroska.EbmlReader.ReadAsciiString(ReadOnlySpan<System.Byte>)
+  fullName.vb: NextAudio.Matroska.EbmlReader.ReadAsciiString(ReadOnlySpan(Of System.Byte))
+  nameWithType: EbmlReader.ReadAsciiString(ReadOnlySpan<Byte>)
+  nameWithType.vb: EbmlReader.ReadAsciiString(ReadOnlySpan(Of Byte))
+- uid: NextAudio.Matroska.EbmlReader.ReadAsciiString*
+  name: ReadAsciiString
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadAsciiString_
+  commentId: Overload:NextAudio.Matroska.EbmlReader.ReadAsciiString
+  isSpec: "True"
+  fullName: NextAudio.Matroska.EbmlReader.ReadAsciiString
+  nameWithType: EbmlReader.ReadAsciiString
+- uid: NextAudio.Matroska.EbmlReader.ReadDate(ReadOnlySpan{System.Byte})
+  name: ReadDate(ReadOnlySpan<Byte>)
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadDate_ReadOnlySpan_System_Byte__
+  commentId: M:NextAudio.Matroska.EbmlReader.ReadDate(ReadOnlySpan{System.Byte})
+  name.vb: ReadDate(ReadOnlySpan(Of Byte))
+  fullName: NextAudio.Matroska.EbmlReader.ReadDate(ReadOnlySpan<System.Byte>)
+  fullName.vb: NextAudio.Matroska.EbmlReader.ReadDate(ReadOnlySpan(Of System.Byte))
+  nameWithType: EbmlReader.ReadDate(ReadOnlySpan<Byte>)
+  nameWithType.vb: EbmlReader.ReadDate(ReadOnlySpan(Of Byte))
+- uid: NextAudio.Matroska.EbmlReader.ReadDate*
+  name: ReadDate
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadDate_
+  commentId: Overload:NextAudio.Matroska.EbmlReader.ReadDate
+  isSpec: "True"
+  fullName: NextAudio.Matroska.EbmlReader.ReadDate
+  nameWithType: EbmlReader.ReadDate
+- uid: NextAudio.Matroska.EbmlReader.ReadFloat(ReadOnlySpan{System.Byte})
+  name: ReadFloat(ReadOnlySpan<Byte>)
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadFloat_ReadOnlySpan_System_Byte__
+  commentId: M:NextAudio.Matroska.EbmlReader.ReadFloat(ReadOnlySpan{System.Byte})
+  name.vb: ReadFloat(ReadOnlySpan(Of Byte))
+  fullName: NextAudio.Matroska.EbmlReader.ReadFloat(ReadOnlySpan<System.Byte>)
+  fullName.vb: NextAudio.Matroska.EbmlReader.ReadFloat(ReadOnlySpan(Of System.Byte))
+  nameWithType: EbmlReader.ReadFloat(ReadOnlySpan<Byte>)
+  nameWithType.vb: EbmlReader.ReadFloat(ReadOnlySpan(Of Byte))
+- uid: NextAudio.Matroska.EbmlReader.ReadFloat*
+  name: ReadFloat
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadFloat_
+  commentId: Overload:NextAudio.Matroska.EbmlReader.ReadFloat
+  isSpec: "True"
+  fullName: NextAudio.Matroska.EbmlReader.ReadFloat
+  nameWithType: EbmlReader.ReadFloat
+- uid: NextAudio.Matroska.EbmlReader.ReadSignedInteger(ReadOnlySpan{System.Byte})
+  name: ReadSignedInteger(ReadOnlySpan<Byte>)
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadSignedInteger_ReadOnlySpan_System_Byte__
+  commentId: M:NextAudio.Matroska.EbmlReader.ReadSignedInteger(ReadOnlySpan{System.Byte})
+  name.vb: ReadSignedInteger(ReadOnlySpan(Of Byte))
+  fullName: NextAudio.Matroska.EbmlReader.ReadSignedInteger(ReadOnlySpan<System.Byte>)
+  fullName.vb: NextAudio.Matroska.EbmlReader.ReadSignedInteger(ReadOnlySpan(Of System.Byte))
+  nameWithType: EbmlReader.ReadSignedInteger(ReadOnlySpan<Byte>)
+  nameWithType.vb: EbmlReader.ReadSignedInteger(ReadOnlySpan(Of Byte))
+- uid: NextAudio.Matroska.EbmlReader.ReadSignedInteger*
+  name: ReadSignedInteger
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadSignedInteger_
+  commentId: Overload:NextAudio.Matroska.EbmlReader.ReadSignedInteger
+  isSpec: "True"
+  fullName: NextAudio.Matroska.EbmlReader.ReadSignedInteger
+  nameWithType: EbmlReader.ReadSignedInteger
+- uid: NextAudio.Matroska.EbmlReader.ReadUnsignedInteger(ReadOnlySpan{System.Byte})
+  name: ReadUnsignedInteger(ReadOnlySpan<Byte>)
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadUnsignedInteger_ReadOnlySpan_System_Byte__
+  commentId: M:NextAudio.Matroska.EbmlReader.ReadUnsignedInteger(ReadOnlySpan{System.Byte})
+  name.vb: ReadUnsignedInteger(ReadOnlySpan(Of Byte))
+  fullName: NextAudio.Matroska.EbmlReader.ReadUnsignedInteger(ReadOnlySpan<System.Byte>)
+  fullName.vb: NextAudio.Matroska.EbmlReader.ReadUnsignedInteger(ReadOnlySpan(Of System.Byte))
+  nameWithType: EbmlReader.ReadUnsignedInteger(ReadOnlySpan<Byte>)
+  nameWithType.vb: EbmlReader.ReadUnsignedInteger(ReadOnlySpan(Of Byte))
+- uid: NextAudio.Matroska.EbmlReader.ReadUnsignedInteger*
+  name: ReadUnsignedInteger
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadUnsignedInteger_
+  commentId: Overload:NextAudio.Matroska.EbmlReader.ReadUnsignedInteger
+  isSpec: "True"
+  fullName: NextAudio.Matroska.EbmlReader.ReadUnsignedInteger
+  nameWithType: EbmlReader.ReadUnsignedInteger
+- uid: NextAudio.Matroska.EbmlReader.ReadUtf8String(ReadOnlySpan{System.Byte})
+  name: ReadUtf8String(ReadOnlySpan<Byte>)
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadUtf8String_ReadOnlySpan_System_Byte__
+  commentId: M:NextAudio.Matroska.EbmlReader.ReadUtf8String(ReadOnlySpan{System.Byte})
+  name.vb: ReadUtf8String(ReadOnlySpan(Of Byte))
+  fullName: NextAudio.Matroska.EbmlReader.ReadUtf8String(ReadOnlySpan<System.Byte>)
+  fullName.vb: NextAudio.Matroska.EbmlReader.ReadUtf8String(ReadOnlySpan(Of System.Byte))
+  nameWithType: EbmlReader.ReadUtf8String(ReadOnlySpan<Byte>)
+  nameWithType.vb: EbmlReader.ReadUtf8String(ReadOnlySpan(Of Byte))
+- uid: NextAudio.Matroska.EbmlReader.ReadUtf8String*
+  name: ReadUtf8String
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadUtf8String_
+  commentId: Overload:NextAudio.Matroska.EbmlReader.ReadUtf8String
+  isSpec: "True"
+  fullName: NextAudio.Matroska.EbmlReader.ReadUtf8String
+  nameWithType: EbmlReader.ReadUtf8String
+- uid: NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger(ReadOnlySpan{System.Byte})
+  name: ReadVariableSizeInteger(ReadOnlySpan<Byte>)
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadVariableSizeInteger_ReadOnlySpan_System_Byte__
+  commentId: M:NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger(ReadOnlySpan{System.Byte})
+  name.vb: ReadVariableSizeInteger(ReadOnlySpan(Of Byte))
+  fullName: NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger(ReadOnlySpan<System.Byte>)
+  fullName.vb: NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger(ReadOnlySpan(Of System.Byte))
+  nameWithType: EbmlReader.ReadVariableSizeInteger(ReadOnlySpan<Byte>)
+  nameWithType.vb: EbmlReader.ReadVariableSizeInteger(ReadOnlySpan(Of Byte))
+- uid: NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger(ReadOnlySpan{System.Byte},System.Int32)
+  name: ReadVariableSizeInteger(ReadOnlySpan<Byte>, Int32)
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadVariableSizeInteger_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger(ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: ReadVariableSizeInteger(ReadOnlySpan(Of Byte), Int32)
+  fullName: NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger(ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger(ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: EbmlReader.ReadVariableSizeInteger(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: EbmlReader.ReadVariableSizeInteger(ReadOnlySpan(Of Byte), Int32)
+- uid: NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger*
+  name: ReadVariableSizeInteger
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadVariableSizeInteger_
+  commentId: Overload:NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger
+  isSpec: "True"
+  fullName: NextAudio.Matroska.EbmlReader.ReadVariableSizeInteger
+  nameWithType: EbmlReader.ReadVariableSizeInteger
+- uid: NextAudio.Matroska.EbmlReader.ReadVariableSizeIntegerLength(System.Byte)
+  name: ReadVariableSizeIntegerLength(Byte)
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadVariableSizeIntegerLength_System_Byte_
+  commentId: M:NextAudio.Matroska.EbmlReader.ReadVariableSizeIntegerLength(System.Byte)
+  fullName: NextAudio.Matroska.EbmlReader.ReadVariableSizeIntegerLength(System.Byte)
+  nameWithType: EbmlReader.ReadVariableSizeIntegerLength(Byte)
+- uid: NextAudio.Matroska.EbmlReader.ReadVariableSizeIntegerLength*
+  name: ReadVariableSizeIntegerLength
+  href: api/NextAudio.Matroska.EbmlReader.html#NextAudio_Matroska_EbmlReader_ReadVariableSizeIntegerLength_
+  commentId: Overload:NextAudio.Matroska.EbmlReader.ReadVariableSizeIntegerLength
+  isSpec: "True"
+  fullName: NextAudio.Matroska.EbmlReader.ReadVariableSizeIntegerLength
+  nameWithType: EbmlReader.ReadVariableSizeIntegerLength
+- uid: NextAudio.Matroska.Models
+  name: NextAudio.Matroska.Models
+  href: api/NextAudio.Matroska.Models.html
+  commentId: N:NextAudio.Matroska.Models
+  fullName: NextAudio.Matroska.Models
+  nameWithType: NextAudio.Matroska.Models
+- uid: NextAudio.Matroska.Models.EbmlValueType
+  name: EbmlValueType
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html
+  commentId: T:NextAudio.Matroska.Models.EbmlValueType
+  fullName: NextAudio.Matroska.Models.EbmlValueType
+  nameWithType: EbmlValueType
+- uid: NextAudio.Matroska.Models.EbmlValueType.AsciiString
+  name: AsciiString
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html#NextAudio_Matroska_Models_EbmlValueType_AsciiString
+  commentId: F:NextAudio.Matroska.Models.EbmlValueType.AsciiString
+  fullName: NextAudio.Matroska.Models.EbmlValueType.AsciiString
+  nameWithType: EbmlValueType.AsciiString
+- uid: NextAudio.Matroska.Models.EbmlValueType.Binary
+  name: Binary
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html#NextAudio_Matroska_Models_EbmlValueType_Binary
+  commentId: F:NextAudio.Matroska.Models.EbmlValueType.Binary
+  fullName: NextAudio.Matroska.Models.EbmlValueType.Binary
+  nameWithType: EbmlValueType.Binary
+- uid: NextAudio.Matroska.Models.EbmlValueType.Date
+  name: Date
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html#NextAudio_Matroska_Models_EbmlValueType_Date
+  commentId: F:NextAudio.Matroska.Models.EbmlValueType.Date
+  fullName: NextAudio.Matroska.Models.EbmlValueType.Date
+  nameWithType: EbmlValueType.Date
+- uid: NextAudio.Matroska.Models.EbmlValueType.Float
+  name: Float
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html#NextAudio_Matroska_Models_EbmlValueType_Float
+  commentId: F:NextAudio.Matroska.Models.EbmlValueType.Float
+  fullName: NextAudio.Matroska.Models.EbmlValueType.Float
+  nameWithType: EbmlValueType.Float
+- uid: NextAudio.Matroska.Models.EbmlValueType.MasterElement
+  name: MasterElement
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html#NextAudio_Matroska_Models_EbmlValueType_MasterElement
+  commentId: F:NextAudio.Matroska.Models.EbmlValueType.MasterElement
+  fullName: NextAudio.Matroska.Models.EbmlValueType.MasterElement
+  nameWithType: EbmlValueType.MasterElement
+- uid: NextAudio.Matroska.Models.EbmlValueType.None
+  name: None
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html#NextAudio_Matroska_Models_EbmlValueType_None
+  commentId: F:NextAudio.Matroska.Models.EbmlValueType.None
+  fullName: NextAudio.Matroska.Models.EbmlValueType.None
+  nameWithType: EbmlValueType.None
+- uid: NextAudio.Matroska.Models.EbmlValueType.SignedInteger
+  name: SignedInteger
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html#NextAudio_Matroska_Models_EbmlValueType_SignedInteger
+  commentId: F:NextAudio.Matroska.Models.EbmlValueType.SignedInteger
+  fullName: NextAudio.Matroska.Models.EbmlValueType.SignedInteger
+  nameWithType: EbmlValueType.SignedInteger
+- uid: NextAudio.Matroska.Models.EbmlValueType.UnsignedInteger
+  name: UnsignedInteger
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html#NextAudio_Matroska_Models_EbmlValueType_UnsignedInteger
+  commentId: F:NextAudio.Matroska.Models.EbmlValueType.UnsignedInteger
+  fullName: NextAudio.Matroska.Models.EbmlValueType.UnsignedInteger
+  nameWithType: EbmlValueType.UnsignedInteger
+- uid: NextAudio.Matroska.Models.EbmlValueType.Utf8String
+  name: Utf8String
+  href: api/NextAudio.Matroska.Models.EbmlValueType.html#NextAudio_Matroska_Models_EbmlValueType_Utf8String
+  commentId: F:NextAudio.Matroska.Models.EbmlValueType.Utf8String
+  fullName: NextAudio.Matroska.Models.EbmlValueType.Utf8String
+  nameWithType: EbmlValueType.Utf8String
+- uid: NextAudio.Matroska.Models.MatroskaElement
+  name: MatroskaElement
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html
+  commentId: T:NextAudio.Matroska.Models.MatroskaElement
+  fullName: NextAudio.Matroska.Models.MatroskaElement
+  nameWithType: MatroskaElement
+- uid: NextAudio.Matroska.Models.MatroskaElement.#ctor(System.UInt64,System.Int32,System.Int64,System.Int32,System.Int32)
+  name: MatroskaElement(UInt64, Int32, Int64, Int32, Int32)
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement__ctor_System_UInt64_System_Int32_System_Int64_System_Int32_System_Int32_
+  commentId: M:NextAudio.Matroska.Models.MatroskaElement.#ctor(System.UInt64,System.Int32,System.Int64,System.Int32,System.Int32)
+  fullName: NextAudio.Matroska.Models.MatroskaElement.MatroskaElement(System.UInt64, System.Int32, System.Int64, System.Int32, System.Int32)
+  nameWithType: MatroskaElement.MatroskaElement(UInt64, Int32, Int64, Int32, Int32)
+- uid: NextAudio.Matroska.Models.MatroskaElement.#ctor*
+  name: MatroskaElement
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement__ctor_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.#ctor
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.MatroskaElement
+  nameWithType: MatroskaElement.MatroskaElement
+- uid: NextAudio.Matroska.Models.MatroskaElement.DataSize
+  name: DataSize
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_DataSize
+  commentId: P:NextAudio.Matroska.Models.MatroskaElement.DataSize
+  fullName: NextAudio.Matroska.Models.MatroskaElement.DataSize
+  nameWithType: MatroskaElement.DataSize
+- uid: NextAudio.Matroska.Models.MatroskaElement.DataSize*
+  name: DataSize
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_DataSize_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.DataSize
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.DataSize
+  nameWithType: MatroskaElement.DataSize
+- uid: NextAudio.Matroska.Models.MatroskaElement.Depth
+  name: Depth
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_Depth
+  commentId: P:NextAudio.Matroska.Models.MatroskaElement.Depth
+  fullName: NextAudio.Matroska.Models.MatroskaElement.Depth
+  nameWithType: MatroskaElement.Depth
+- uid: NextAudio.Matroska.Models.MatroskaElement.Depth*
+  name: Depth
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_Depth_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.Depth
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.Depth
+  nameWithType: MatroskaElement.Depth
+- uid: NextAudio.Matroska.Models.MatroskaElement.EndPosition
+  name: EndPosition
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_EndPosition
+  commentId: P:NextAudio.Matroska.Models.MatroskaElement.EndPosition
+  fullName: NextAudio.Matroska.Models.MatroskaElement.EndPosition
+  nameWithType: MatroskaElement.EndPosition
+- uid: NextAudio.Matroska.Models.MatroskaElement.EndPosition*
+  name: EndPosition
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_EndPosition_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.EndPosition
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.EndPosition
+  nameWithType: MatroskaElement.EndPosition
+- uid: NextAudio.Matroska.Models.MatroskaElement.GetRemaining(System.Int64)
+  name: GetRemaining(Int64)
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_GetRemaining_System_Int64_
+  commentId: M:NextAudio.Matroska.Models.MatroskaElement.GetRemaining(System.Int64)
+  fullName: NextAudio.Matroska.Models.MatroskaElement.GetRemaining(System.Int64)
+  nameWithType: MatroskaElement.GetRemaining(Int64)
+- uid: NextAudio.Matroska.Models.MatroskaElement.GetRemaining*
+  name: GetRemaining
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_GetRemaining_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.GetRemaining
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.GetRemaining
+  nameWithType: MatroskaElement.GetRemaining
+- uid: NextAudio.Matroska.Models.MatroskaElement.HeaderSize
+  name: HeaderSize
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_HeaderSize
+  commentId: P:NextAudio.Matroska.Models.MatroskaElement.HeaderSize
+  fullName: NextAudio.Matroska.Models.MatroskaElement.HeaderSize
+  nameWithType: MatroskaElement.HeaderSize
+- uid: NextAudio.Matroska.Models.MatroskaElement.HeaderSize*
+  name: HeaderSize
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_HeaderSize_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.HeaderSize
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.HeaderSize
+  nameWithType: MatroskaElement.HeaderSize
+- uid: NextAudio.Matroska.Models.MatroskaElement.Id
+  name: Id
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_Id
+  commentId: P:NextAudio.Matroska.Models.MatroskaElement.Id
+  fullName: NextAudio.Matroska.Models.MatroskaElement.Id
+  nameWithType: MatroskaElement.Id
+- uid: NextAudio.Matroska.Models.MatroskaElement.Id*
+  name: Id
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_Id_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.Id
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.Id
+  nameWithType: MatroskaElement.Id
+- uid: NextAudio.Matroska.Models.MatroskaElement.Position
+  name: Position
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_Position
+  commentId: P:NextAudio.Matroska.Models.MatroskaElement.Position
+  fullName: NextAudio.Matroska.Models.MatroskaElement.Position
+  nameWithType: MatroskaElement.Position
+- uid: NextAudio.Matroska.Models.MatroskaElement.Position*
+  name: Position
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_Position_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.Position
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.Position
+  nameWithType: MatroskaElement.Position
+- uid: NextAudio.Matroska.Models.MatroskaElement.Type
+  name: Type
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_Type
+  commentId: P:NextAudio.Matroska.Models.MatroskaElement.Type
+  fullName: NextAudio.Matroska.Models.MatroskaElement.Type
+  nameWithType: MatroskaElement.Type
+- uid: NextAudio.Matroska.Models.MatroskaElement.Type*
+  name: Type
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_Type_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.Type
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.Type
+  nameWithType: MatroskaElement.Type
+- uid: NextAudio.Matroska.Models.MatroskaElement.ValueType
+  name: ValueType
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_ValueType
+  commentId: P:NextAudio.Matroska.Models.MatroskaElement.ValueType
+  fullName: NextAudio.Matroska.Models.MatroskaElement.ValueType
+  nameWithType: MatroskaElement.ValueType
+- uid: NextAudio.Matroska.Models.MatroskaElement.ValueType*
+  name: ValueType
+  href: api/NextAudio.Matroska.Models.MatroskaElement.html#NextAudio_Matroska_Models_MatroskaElement_ValueType_
+  commentId: Overload:NextAudio.Matroska.Models.MatroskaElement.ValueType
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.MatroskaElement.ValueType
+  nameWithType: MatroskaElement.ValueType
+- uid: NextAudio.Matroska.Models.MatroskaElementType
+  name: MatroskaElementType
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html
+  commentId: T:NextAudio.Matroska.Models.MatroskaElementType
+  fullName: NextAudio.Matroska.Models.MatroskaElementType
+  nameWithType: MatroskaElementType
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Audio
+  name: Audio
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Audio
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Audio
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Audio
+  nameWithType: MatroskaElementType.Audio
+- uid: NextAudio.Matroska.Models.MatroskaElementType.BitDepth
+  name: BitDepth
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_BitDepth
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.BitDepth
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.BitDepth
+  nameWithType: MatroskaElementType.BitDepth
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Block
+  name: Block
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Block
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Block
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Block
+  nameWithType: MatroskaElementType.Block
+- uid: NextAudio.Matroska.Models.MatroskaElementType.BlockDuration
+  name: BlockDuration
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_BlockDuration
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.BlockDuration
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.BlockDuration
+  nameWithType: MatroskaElementType.BlockDuration
+- uid: NextAudio.Matroska.Models.MatroskaElementType.BlockGroup
+  name: BlockGroup
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_BlockGroup
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.BlockGroup
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.BlockGroup
+  nameWithType: MatroskaElementType.BlockGroup
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Channels
+  name: Channels
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Channels
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Channels
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Channels
+  nameWithType: MatroskaElementType.Channels
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Cluster
+  name: Cluster
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Cluster
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Cluster
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Cluster
+  nameWithType: MatroskaElementType.Cluster
+- uid: NextAudio.Matroska.Models.MatroskaElementType.CodecId
+  name: CodecId
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_CodecId
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.CodecId
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.CodecId
+  nameWithType: MatroskaElementType.CodecId
+- uid: NextAudio.Matroska.Models.MatroskaElementType.CodecPrivate
+  name: CodecPrivate
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_CodecPrivate
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.CodecPrivate
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.CodecPrivate
+  nameWithType: MatroskaElementType.CodecPrivate
+- uid: NextAudio.Matroska.Models.MatroskaElementType.CueClusterPosition
+  name: CueClusterPosition
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_CueClusterPosition
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.CueClusterPosition
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.CueClusterPosition
+  nameWithType: MatroskaElementType.CueClusterPosition
+- uid: NextAudio.Matroska.Models.MatroskaElementType.CuePoint
+  name: CuePoint
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_CuePoint
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.CuePoint
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.CuePoint
+  nameWithType: MatroskaElementType.CuePoint
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Cues
+  name: Cues
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Cues
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Cues
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Cues
+  nameWithType: MatroskaElementType.Cues
+- uid: NextAudio.Matroska.Models.MatroskaElementType.CueTime
+  name: CueTime
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_CueTime
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.CueTime
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.CueTime
+  nameWithType: MatroskaElementType.CueTime
+- uid: NextAudio.Matroska.Models.MatroskaElementType.CueTrack
+  name: CueTrack
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_CueTrack
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.CueTrack
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.CueTrack
+  nameWithType: MatroskaElementType.CueTrack
+- uid: NextAudio.Matroska.Models.MatroskaElementType.CueTrackPositions
+  name: CueTrackPositions
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_CueTrackPositions
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.CueTrackPositions
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.CueTrackPositions
+  nameWithType: MatroskaElementType.CueTrackPositions
+- uid: NextAudio.Matroska.Models.MatroskaElementType.DocType
+  name: DocType
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_DocType
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.DocType
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.DocType
+  nameWithType: MatroskaElementType.DocType
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Duration
+  name: Duration
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Duration
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Duration
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Duration
+  nameWithType: MatroskaElementType.Duration
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Ebml
+  name: Ebml
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Ebml
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Ebml
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Ebml
+  nameWithType: MatroskaElementType.Ebml
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Info
+  name: Info
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Info
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Info
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Info
+  nameWithType: MatroskaElementType.Info
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Name
+  name: Name
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Name
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Name
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Name
+  nameWithType: MatroskaElementType.Name
+- uid: NextAudio.Matroska.Models.MatroskaElementType.OutputSamplingFrequency
+  name: OutputSamplingFrequency
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_OutputSamplingFrequency
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.OutputSamplingFrequency
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.OutputSamplingFrequency
+  nameWithType: MatroskaElementType.OutputSamplingFrequency
+- uid: NextAudio.Matroska.Models.MatroskaElementType.ReferenceBlock
+  name: ReferenceBlock
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_ReferenceBlock
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.ReferenceBlock
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.ReferenceBlock
+  nameWithType: MatroskaElementType.ReferenceBlock
+- uid: NextAudio.Matroska.Models.MatroskaElementType.SamplingFrequency
+  name: SamplingFrequency
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_SamplingFrequency
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.SamplingFrequency
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.SamplingFrequency
+  nameWithType: MatroskaElementType.SamplingFrequency
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Seek
+  name: Seek
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Seek
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Seek
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Seek
+  nameWithType: MatroskaElementType.Seek
+- uid: NextAudio.Matroska.Models.MatroskaElementType.SeekHead
+  name: SeekHead
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_SeekHead
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.SeekHead
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.SeekHead
+  nameWithType: MatroskaElementType.SeekHead
+- uid: NextAudio.Matroska.Models.MatroskaElementType.SeekId
+  name: SeekId
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_SeekId
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.SeekId
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.SeekId
+  nameWithType: MatroskaElementType.SeekId
+- uid: NextAudio.Matroska.Models.MatroskaElementType.SeekPosition
+  name: SeekPosition
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_SeekPosition
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.SeekPosition
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.SeekPosition
+  nameWithType: MatroskaElementType.SeekPosition
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Segment
+  name: Segment
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Segment
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Segment
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Segment
+  nameWithType: MatroskaElementType.Segment
+- uid: NextAudio.Matroska.Models.MatroskaElementType.SimpleBlock
+  name: SimpleBlock
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_SimpleBlock
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.SimpleBlock
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.SimpleBlock
+  nameWithType: MatroskaElementType.SimpleBlock
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Timecode
+  name: Timecode
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Timecode
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Timecode
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Timecode
+  nameWithType: MatroskaElementType.Timecode
+- uid: NextAudio.Matroska.Models.MatroskaElementType.TimecodeScale
+  name: TimecodeScale
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_TimecodeScale
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.TimecodeScale
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.TimecodeScale
+  nameWithType: MatroskaElementType.TimecodeScale
+- uid: NextAudio.Matroska.Models.MatroskaElementType.TrackEntry
+  name: TrackEntry
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_TrackEntry
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.TrackEntry
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.TrackEntry
+  nameWithType: MatroskaElementType.TrackEntry
+- uid: NextAudio.Matroska.Models.MatroskaElementType.TrackNumber
+  name: TrackNumber
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_TrackNumber
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.TrackNumber
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.TrackNumber
+  nameWithType: MatroskaElementType.TrackNumber
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Tracks
+  name: Tracks
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Tracks
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Tracks
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Tracks
+  nameWithType: MatroskaElementType.Tracks
+- uid: NextAudio.Matroska.Models.MatroskaElementType.TrackType
+  name: TrackType
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_TrackType
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.TrackType
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.TrackType
+  nameWithType: MatroskaElementType.TrackType
+- uid: NextAudio.Matroska.Models.MatroskaElementType.TrackUid
+  name: TrackUid
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_TrackUid
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.TrackUid
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.TrackUid
+  nameWithType: MatroskaElementType.TrackUid
+- uid: NextAudio.Matroska.Models.MatroskaElementType.Unknown
+  name: Unknown
+  href: api/NextAudio.Matroska.Models.MatroskaElementType.html#NextAudio_Matroska_Models_MatroskaElementType_Unknown
+  commentId: F:NextAudio.Matroska.Models.MatroskaElementType.Unknown
+  fullName: NextAudio.Matroska.Models.MatroskaElementType.Unknown
+  nameWithType: MatroskaElementType.Unknown
+- uid: NextAudio.Matroska.Models.VInt
+  name: VInt
+  href: api/NextAudio.Matroska.Models.VInt.html
+  commentId: T:NextAudio.Matroska.Models.VInt
+  fullName: NextAudio.Matroska.Models.VInt
+  nameWithType: VInt
+- uid: NextAudio.Matroska.Models.VInt.#ctor(System.UInt64,System.Int32)
+  name: VInt(UInt64, Int32)
+  href: api/NextAudio.Matroska.Models.VInt.html#NextAudio_Matroska_Models_VInt__ctor_System_UInt64_System_Int32_
+  commentId: M:NextAudio.Matroska.Models.VInt.#ctor(System.UInt64,System.Int32)
+  fullName: NextAudio.Matroska.Models.VInt.VInt(System.UInt64, System.Int32)
+  nameWithType: VInt.VInt(UInt64, Int32)
+- uid: NextAudio.Matroska.Models.VInt.#ctor*
+  name: VInt
+  href: api/NextAudio.Matroska.Models.VInt.html#NextAudio_Matroska_Models_VInt__ctor_
+  commentId: Overload:NextAudio.Matroska.Models.VInt.#ctor
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.VInt.VInt
+  nameWithType: VInt.VInt
+- uid: NextAudio.Matroska.Models.VInt.EncodedValue
+  name: EncodedValue
+  href: api/NextAudio.Matroska.Models.VInt.html#NextAudio_Matroska_Models_VInt_EncodedValue
+  commentId: P:NextAudio.Matroska.Models.VInt.EncodedValue
+  fullName: NextAudio.Matroska.Models.VInt.EncodedValue
+  nameWithType: VInt.EncodedValue
+- uid: NextAudio.Matroska.Models.VInt.EncodedValue*
+  name: EncodedValue
+  href: api/NextAudio.Matroska.Models.VInt.html#NextAudio_Matroska_Models_VInt_EncodedValue_
+  commentId: Overload:NextAudio.Matroska.Models.VInt.EncodedValue
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.VInt.EncodedValue
+  nameWithType: VInt.EncodedValue
+- uid: NextAudio.Matroska.Models.VInt.Length
+  name: Length
+  href: api/NextAudio.Matroska.Models.VInt.html#NextAudio_Matroska_Models_VInt_Length
+  commentId: P:NextAudio.Matroska.Models.VInt.Length
+  fullName: NextAudio.Matroska.Models.VInt.Length
+  nameWithType: VInt.Length
+- uid: NextAudio.Matroska.Models.VInt.Length*
+  name: Length
+  href: api/NextAudio.Matroska.Models.VInt.html#NextAudio_Matroska_Models_VInt_Length_
+  commentId: Overload:NextAudio.Matroska.Models.VInt.Length
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.VInt.Length
+  nameWithType: VInt.Length
+- uid: NextAudio.Matroska.Models.VInt.Value
+  name: Value
+  href: api/NextAudio.Matroska.Models.VInt.html#NextAudio_Matroska_Models_VInt_Value
+  commentId: P:NextAudio.Matroska.Models.VInt.Value
+  fullName: NextAudio.Matroska.Models.VInt.Value
+  nameWithType: VInt.Value
+- uid: NextAudio.Matroska.Models.VInt.Value*
+  name: Value
+  href: api/NextAudio.Matroska.Models.VInt.html#NextAudio_Matroska_Models_VInt_Value_
+  commentId: Overload:NextAudio.Matroska.Models.VInt.Value
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Models.VInt.Value
+  nameWithType: VInt.Value
+- uid: NextAudio.Matroska.Utils
+  name: NextAudio.Matroska.Utils
+  href: api/NextAudio.Matroska.Utils.html
+  commentId: N:NextAudio.Matroska.Utils
+  fullName: NextAudio.Matroska.Utils
+  nameWithType: NextAudio.Matroska.Utils
+- uid: NextAudio.Matroska.Utils.MatroskaUtils
+  name: MatroskaUtils
+  href: api/NextAudio.Matroska.Utils.MatroskaUtils.html
+  commentId: T:NextAudio.Matroska.Utils.MatroskaUtils
+  fullName: NextAudio.Matroska.Utils.MatroskaUtils
+  nameWithType: MatroskaUtils
+- uid: NextAudio.Matroska.Utils.MatroskaUtils.GetEbmlValueType(NextAudio.Matroska.Models.MatroskaElementType)
+  name: GetEbmlValueType(MatroskaElementType)
+  href: api/NextAudio.Matroska.Utils.MatroskaUtils.html#NextAudio_Matroska_Utils_MatroskaUtils_GetEbmlValueType_NextAudio_Matroska_Models_MatroskaElementType_
+  commentId: M:NextAudio.Matroska.Utils.MatroskaUtils.GetEbmlValueType(NextAudio.Matroska.Models.MatroskaElementType)
+  fullName: NextAudio.Matroska.Utils.MatroskaUtils.GetEbmlValueType(NextAudio.Matroska.Models.MatroskaElementType)
+  nameWithType: MatroskaUtils.GetEbmlValueType(MatroskaElementType)
+- uid: NextAudio.Matroska.Utils.MatroskaUtils.GetEbmlValueType*
+  name: GetEbmlValueType
+  href: api/NextAudio.Matroska.Utils.MatroskaUtils.html#NextAudio_Matroska_Utils_MatroskaUtils_GetEbmlValueType_
+  commentId: Overload:NextAudio.Matroska.Utils.MatroskaUtils.GetEbmlValueType
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Utils.MatroskaUtils.GetEbmlValueType
+  nameWithType: MatroskaUtils.GetEbmlValueType
+- uid: NextAudio.Matroska.Utils.MatroskaUtils.GetMatroskaElementType(System.UInt64)
+  name: GetMatroskaElementType(UInt64)
+  href: api/NextAudio.Matroska.Utils.MatroskaUtils.html#NextAudio_Matroska_Utils_MatroskaUtils_GetMatroskaElementType_System_UInt64_
+  commentId: M:NextAudio.Matroska.Utils.MatroskaUtils.GetMatroskaElementType(System.UInt64)
+  fullName: NextAudio.Matroska.Utils.MatroskaUtils.GetMatroskaElementType(System.UInt64)
+  nameWithType: MatroskaUtils.GetMatroskaElementType(UInt64)
+- uid: NextAudio.Matroska.Utils.MatroskaUtils.GetMatroskaElementType*
+  name: GetMatroskaElementType
+  href: api/NextAudio.Matroska.Utils.MatroskaUtils.html#NextAudio_Matroska_Utils_MatroskaUtils_GetMatroskaElementType_
+  commentId: Overload:NextAudio.Matroska.Utils.MatroskaUtils.GetMatroskaElementType
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Utils.MatroskaUtils.GetMatroskaElementType
+  nameWithType: MatroskaUtils.GetMatroskaElementType
+- uid: NextAudio.Matroska.Utils.MatroskaUtils.IsEbmlIdMappedForMatroskaElementType(System.UInt64)
+  name: IsEbmlIdMappedForMatroskaElementType(UInt64)
+  href: api/NextAudio.Matroska.Utils.MatroskaUtils.html#NextAudio_Matroska_Utils_MatroskaUtils_IsEbmlIdMappedForMatroskaElementType_System_UInt64_
+  commentId: M:NextAudio.Matroska.Utils.MatroskaUtils.IsEbmlIdMappedForMatroskaElementType(System.UInt64)
+  fullName: NextAudio.Matroska.Utils.MatroskaUtils.IsEbmlIdMappedForMatroskaElementType(System.UInt64)
+  nameWithType: MatroskaUtils.IsEbmlIdMappedForMatroskaElementType(UInt64)
+- uid: NextAudio.Matroska.Utils.MatroskaUtils.IsEbmlIdMappedForMatroskaElementType*
+  name: IsEbmlIdMappedForMatroskaElementType
+  href: api/NextAudio.Matroska.Utils.MatroskaUtils.html#NextAudio_Matroska_Utils_MatroskaUtils_IsEbmlIdMappedForMatroskaElementType_
+  commentId: Overload:NextAudio.Matroska.Utils.MatroskaUtils.IsEbmlIdMappedForMatroskaElementType
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Utils.MatroskaUtils.IsEbmlIdMappedForMatroskaElementType
+  nameWithType: MatroskaUtils.IsEbmlIdMappedForMatroskaElementType
+- uid: NextAudio.Matroska.Utils.MatroskaUtils.TryGetMatroskaElementType(System.UInt64,NextAudio.Matroska.Models.MatroskaElementType@)
+  name: TryGetMatroskaElementType(UInt64, out MatroskaElementType)
+  href: api/NextAudio.Matroska.Utils.MatroskaUtils.html#NextAudio_Matroska_Utils_MatroskaUtils_TryGetMatroskaElementType_System_UInt64_NextAudio_Matroska_Models_MatroskaElementType__
+  commentId: M:NextAudio.Matroska.Utils.MatroskaUtils.TryGetMatroskaElementType(System.UInt64,NextAudio.Matroska.Models.MatroskaElementType@)
+  name.vb: TryGetMatroskaElementType(UInt64, ByRef MatroskaElementType)
+  fullName: NextAudio.Matroska.Utils.MatroskaUtils.TryGetMatroskaElementType(System.UInt64, out NextAudio.Matroska.Models.MatroskaElementType)
+  fullName.vb: NextAudio.Matroska.Utils.MatroskaUtils.TryGetMatroskaElementType(System.UInt64, ByRef NextAudio.Matroska.Models.MatroskaElementType)
+  nameWithType: MatroskaUtils.TryGetMatroskaElementType(UInt64, out MatroskaElementType)
+  nameWithType.vb: MatroskaUtils.TryGetMatroskaElementType(UInt64, ByRef MatroskaElementType)
+- uid: NextAudio.Matroska.Utils.MatroskaUtils.TryGetMatroskaElementType*
+  name: TryGetMatroskaElementType
+  href: api/NextAudio.Matroska.Utils.MatroskaUtils.html#NextAudio_Matroska_Utils_MatroskaUtils_TryGetMatroskaElementType_
+  commentId: Overload:NextAudio.Matroska.Utils.MatroskaUtils.TryGetMatroskaElementType
+  isSpec: "True"
+  fullName: NextAudio.Matroska.Utils.MatroskaUtils.TryGetMatroskaElementType
+  nameWithType: MatroskaUtils.TryGetMatroskaElementType
+- uid: NextAudio.ReadOnlyAudioStream
+  name: ReadOnlyAudioStream
+  href: api/NextAudio.ReadOnlyAudioStream.html
+  commentId: T:NextAudio.ReadOnlyAudioStream
+  fullName: NextAudio.ReadOnlyAudioStream
+  nameWithType: ReadOnlyAudioStream
+- uid: NextAudio.ReadOnlyAudioStream.CanRead
+  name: CanRead
+  href: api/NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_CanRead
+  commentId: P:NextAudio.ReadOnlyAudioStream.CanRead
+  fullName: NextAudio.ReadOnlyAudioStream.CanRead
+  nameWithType: ReadOnlyAudioStream.CanRead
+- uid: NextAudio.ReadOnlyAudioStream.CanRead*
+  name: CanRead
+  href: api/NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_CanRead_
+  commentId: Overload:NextAudio.ReadOnlyAudioStream.CanRead
+  isSpec: "True"
+  fullName: NextAudio.ReadOnlyAudioStream.CanRead
+  nameWithType: ReadOnlyAudioStream.CanRead
+- uid: NextAudio.ReadOnlyAudioStream.CanWrite
+  name: CanWrite
+  href: api/NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_CanWrite
+  commentId: P:NextAudio.ReadOnlyAudioStream.CanWrite
+  fullName: NextAudio.ReadOnlyAudioStream.CanWrite
+  nameWithType: ReadOnlyAudioStream.CanWrite
+- uid: NextAudio.ReadOnlyAudioStream.CanWrite*
+  name: CanWrite
+  href: api/NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_CanWrite_
+  commentId: Overload:NextAudio.ReadOnlyAudioStream.CanWrite
+  isSpec: "True"
+  fullName: NextAudio.ReadOnlyAudioStream.CanWrite
+  nameWithType: ReadOnlyAudioStream.CanWrite
+- uid: NextAudio.ReadOnlyAudioStream.Write(ReadOnlySpan{System.Byte})
+  name: Write(ReadOnlySpan<Byte>)
+  href: api/NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_Write_ReadOnlySpan_System_Byte__
+  commentId: M:NextAudio.ReadOnlyAudioStream.Write(ReadOnlySpan{System.Byte})
+  name.vb: Write(ReadOnlySpan(Of Byte))
+  fullName: NextAudio.ReadOnlyAudioStream.Write(ReadOnlySpan<System.Byte>)
+  fullName.vb: NextAudio.ReadOnlyAudioStream.Write(ReadOnlySpan(Of System.Byte))
+  nameWithType: ReadOnlyAudioStream.Write(ReadOnlySpan<Byte>)
+  nameWithType.vb: ReadOnlyAudioStream.Write(ReadOnlySpan(Of Byte))
+- uid: NextAudio.ReadOnlyAudioStream.Write*
+  name: Write
+  href: api/NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_Write_
+  commentId: Overload:NextAudio.ReadOnlyAudioStream.Write
+  isSpec: "True"
+  fullName: NextAudio.ReadOnlyAudioStream.Write
+  nameWithType: ReadOnlyAudioStream.Write
+- uid: NextAudio.ReadOnlyAudioStream.WriteAsync(ReadOnlyMemory{System.Byte},CancellationToken)
+  name: WriteAsync(ReadOnlyMemory<Byte>, CancellationToken)
+  href: api/NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_WriteAsync_ReadOnlyMemory_System_Byte__CancellationToken_
+  commentId: M:NextAudio.ReadOnlyAudioStream.WriteAsync(ReadOnlyMemory{System.Byte},CancellationToken)
+  name.vb: WriteAsync(ReadOnlyMemory(Of Byte), CancellationToken)
+  fullName: NextAudio.ReadOnlyAudioStream.WriteAsync(ReadOnlyMemory<System.Byte>, CancellationToken)
+  fullName.vb: NextAudio.ReadOnlyAudioStream.WriteAsync(ReadOnlyMemory(Of System.Byte), CancellationToken)
+  nameWithType: ReadOnlyAudioStream.WriteAsync(ReadOnlyMemory<Byte>, CancellationToken)
+  nameWithType.vb: ReadOnlyAudioStream.WriteAsync(ReadOnlyMemory(Of Byte), CancellationToken)
+- uid: NextAudio.ReadOnlyAudioStream.WriteAsync*
+  name: WriteAsync
+  href: api/NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_WriteAsync_
+  commentId: Overload:NextAudio.ReadOnlyAudioStream.WriteAsync
+  isSpec: "True"
+  fullName: NextAudio.ReadOnlyAudioStream.WriteAsync
+  nameWithType: ReadOnlyAudioStream.WriteAsync
+- uid: NextAudio.WriteOnlyAudioStream
+  name: WriteOnlyAudioStream
+  href: api/NextAudio.WriteOnlyAudioStream.html
+  commentId: T:NextAudio.WriteOnlyAudioStream
+  fullName: NextAudio.WriteOnlyAudioStream
+  nameWithType: WriteOnlyAudioStream
+- uid: NextAudio.WriteOnlyAudioStream.CanRead
+  name: CanRead
+  href: api/NextAudio.WriteOnlyAudioStream.html#NextAudio_WriteOnlyAudioStream_CanRead
+  commentId: P:NextAudio.WriteOnlyAudioStream.CanRead
+  fullName: NextAudio.WriteOnlyAudioStream.CanRead
+  nameWithType: WriteOnlyAudioStream.CanRead
+- uid: NextAudio.WriteOnlyAudioStream.CanRead*
+  name: CanRead
+  href: api/NextAudio.WriteOnlyAudioStream.html#NextAudio_WriteOnlyAudioStream_CanRead_
+  commentId: Overload:NextAudio.WriteOnlyAudioStream.CanRead
+  isSpec: "True"
+  fullName: NextAudio.WriteOnlyAudioStream.CanRead
+  nameWithType: WriteOnlyAudioStream.CanRead
+- uid: NextAudio.WriteOnlyAudioStream.CanWrite
+  name: CanWrite
+  href: api/NextAudio.WriteOnlyAudioStream.html#NextAudio_WriteOnlyAudioStream_CanWrite
+  commentId: P:NextAudio.WriteOnlyAudioStream.CanWrite
+  fullName: NextAudio.WriteOnlyAudioStream.CanWrite
+  nameWithType: WriteOnlyAudioStream.CanWrite
+- uid: NextAudio.WriteOnlyAudioStream.CanWrite*
+  name: CanWrite
+  href: api/NextAudio.WriteOnlyAudioStream.html#NextAudio_WriteOnlyAudioStream_CanWrite_
+  commentId: Overload:NextAudio.WriteOnlyAudioStream.CanWrite
+  isSpec: "True"
+  fullName: NextAudio.WriteOnlyAudioStream.CanWrite
+  nameWithType: WriteOnlyAudioStream.CanWrite
+- uid: NextAudio.WriteOnlyAudioStream.Read(Span{System.Byte})
+  name: Read(Span<Byte>)
+  href: api/NextAudio.WriteOnlyAudioStream.html#NextAudio_WriteOnlyAudioStream_Read_Span_System_Byte__
+  commentId: M:NextAudio.WriteOnlyAudioStream.Read(Span{System.Byte})
+  name.vb: Read(Span(Of Byte))
+  fullName: NextAudio.WriteOnlyAudioStream.Read(Span<System.Byte>)
+  fullName.vb: NextAudio.WriteOnlyAudioStream.Read(Span(Of System.Byte))
+  nameWithType: WriteOnlyAudioStream.Read(Span<Byte>)
+  nameWithType.vb: WriteOnlyAudioStream.Read(Span(Of Byte))
+- uid: NextAudio.WriteOnlyAudioStream.Read*
+  name: Read
+  href: api/NextAudio.WriteOnlyAudioStream.html#NextAudio_WriteOnlyAudioStream_Read_
+  commentId: Overload:NextAudio.WriteOnlyAudioStream.Read
+  isSpec: "True"
+  fullName: NextAudio.WriteOnlyAudioStream.Read
+  nameWithType: WriteOnlyAudioStream.Read
+- uid: NextAudio.WriteOnlyAudioStream.ReadAsync(Memory{System.Byte},CancellationToken)
+  name: ReadAsync(Memory<Byte>, CancellationToken)
+  href: api/NextAudio.WriteOnlyAudioStream.html#NextAudio_WriteOnlyAudioStream_ReadAsync_Memory_System_Byte__CancellationToken_
+  commentId: M:NextAudio.WriteOnlyAudioStream.ReadAsync(Memory{System.Byte},CancellationToken)
+  name.vb: ReadAsync(Memory(Of Byte), CancellationToken)
+  fullName: NextAudio.WriteOnlyAudioStream.ReadAsync(Memory<System.Byte>, CancellationToken)
+  fullName.vb: NextAudio.WriteOnlyAudioStream.ReadAsync(Memory(Of System.Byte), CancellationToken)
+  nameWithType: WriteOnlyAudioStream.ReadAsync(Memory<Byte>, CancellationToken)
+  nameWithType.vb: WriteOnlyAudioStream.ReadAsync(Memory(Of Byte), CancellationToken)
+- uid: NextAudio.WriteOnlyAudioStream.ReadAsync*
+  name: ReadAsync
+  href: api/NextAudio.WriteOnlyAudioStream.html#NextAudio_WriteOnlyAudioStream_ReadAsync_
+  commentId: Overload:NextAudio.WriteOnlyAudioStream.ReadAsync
+  isSpec: "True"
+  fullName: NextAudio.WriteOnlyAudioStream.ReadAsync
+  nameWithType: WriteOnlyAudioStream.ReadAsync
