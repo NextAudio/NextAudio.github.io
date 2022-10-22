@@ -113,10 +113,19 @@
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Position">AudioStream.Position</a>
     </div>
     <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_RecommendedSynchronicity">AudioStream.RecommendedSynchronicity</a>
+    </div>
+    <div>
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Clone">AudioStream.Clone()</a>
     </div>
     <div>
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Seek_System_Int64_SeekOrigin_">AudioStream.Seek(Int64, SeekOrigin)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_SeekAsync_System_Int64_SeekOrigin_CancellationToken_">AudioStream.SeekAsync(Int64, SeekOrigin, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_SetLength_System_Int64_">AudioStream.SetLength(Int64)</a>
     </div>
     <div>
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Write_ReadOnlySpan_System_Byte__">AudioStream.Write(ReadOnlySpan&lt;Byte&gt;)</a>
@@ -148,6 +157,21 @@
     <div>
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Dispose">AudioStream.Dispose()</a>
     </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CreateFromStream_Stream_NextAudio_StreamToAudioStreamOptions_">AudioStream.CreateFromStream(Stream, StreamToAudioStreamOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CreateFromFile_System_String_">AudioStream.CreateFromFile(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CreateFromFile_System_String_FileStreamOptions_">AudioStream.CreateFromFile(String, FileStreamOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CreateFromFile_System_String_NextAudio_FileAudioStreamOptions_">AudioStream.CreateFromFile(String, FileAudioStreamOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CastToStream_NextAudio_AudioStream_NextAudio_AudioStreamToStreamOptions_">AudioStream.CastToStream(AudioStream, AudioStreamToStreamOptions)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NextAudio.html">NextAudio</a></h6>
   <h6><strong>Assembly</strong>: NextAudio.dll</h6>
@@ -155,14 +179,66 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class WriteOnlyAudioStream : AudioStream</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream__ctor.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/WriteOnlyAudioStream.cs/#L23">View Source</a>
+  </span>
+  <a id="NextAudio_WriteOnlyAudioStream__ctor_" data-uid="NextAudio.WriteOnlyAudioStream.#ctor*"></a>
+  <h4 id="NextAudio_WriteOnlyAudioStream__ctor" data-uid="NextAudio.WriteOnlyAudioStream.#ctor">WriteOnlyAudioStream()</h4>
+  <div class="markdown level1 summary"><p>Creates an instance of <a class="xref" href="NextAudio.WriteOnlyAudioStream.html">WriteOnlyAudioStream</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected WriteOnlyAudioStream()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream__ctor_ILoggerFactory_.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.%23ctor(ILoggerFactory)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/WriteOnlyAudioStream.cs/#L16">View Source</a>
+  </span>
+  <a id="NextAudio_WriteOnlyAudioStream__ctor_" data-uid="NextAudio.WriteOnlyAudioStream.#ctor*"></a>
+  <h4 id="NextAudio_WriteOnlyAudioStream__ctor_ILoggerFactory_" data-uid="NextAudio.WriteOnlyAudioStream.#ctor(ILoggerFactory)">WriteOnlyAudioStream(ILoggerFactory)</h4>
+  <div class="markdown level1 summary"><p>Creates an instance of <a class="xref" href="NextAudio.WriteOnlyAudioStream.html">WriteOnlyAudioStream</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected WriteOnlyAudioStream(ILoggerFactory loggerFactory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ILoggerFactory</span></td>
+        <td><span class="parametername">loggerFactory</span></td>
+        <td><p>A logger factory to log audio streaming info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream_CanRead.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.CanRead%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream_CanRead.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.CanRead%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/WriteOnlyAudioStream.cs/#L10">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/WriteOnlyAudioStream.cs/#L28">View Source</a>
   </span>
   <a id="NextAudio_WriteOnlyAudioStream_CanRead_" data-uid="NextAudio.WriteOnlyAudioStream.CanRead*"></a>
   <h4 id="NextAudio_WriteOnlyAudioStream_CanRead" data-uid="NextAudio.WriteOnlyAudioStream.CanRead">CanRead</h4>
@@ -191,10 +267,10 @@
   <div><a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CanRead">AudioStream.CanRead</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream_CanWrite.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.CanWrite%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream_CanWrite.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.CanWrite%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/WriteOnlyAudioStream.cs/#L13">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/WriteOnlyAudioStream.cs/#L32">View Source</a>
   </span>
   <a id="NextAudio_WriteOnlyAudioStream_CanWrite_" data-uid="NextAudio.WriteOnlyAudioStream.CanWrite*"></a>
   <h4 id="NextAudio_WriteOnlyAudioStream_CanWrite" data-uid="NextAudio.WriteOnlyAudioStream.CanWrite">CanWrite</h4>
@@ -225,10 +301,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream_Read_Span_System_Byte__.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.Read(Span%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream_Read_Span_System_Byte__.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.Read(Span%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/WriteOnlyAudioStream.cs/#L16">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/WriteOnlyAudioStream.cs/#L36">View Source</a>
   </span>
   <a id="NextAudio_WriteOnlyAudioStream_Read_" data-uid="NextAudio.WriteOnlyAudioStream.Read*"></a>
   <h4 id="NextAudio_WriteOnlyAudioStream_Read_Span_System_Byte__" data-uid="NextAudio.WriteOnlyAudioStream.Read(Span{System.Byte})">Read(Span&lt;Byte&gt;)</h4>
@@ -274,10 +350,10 @@
   <div><a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Read_Span_System_Byte__">AudioStream.Read(Span&lt;Byte&gt;)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream_ReadAsync_Memory_System_Byte__CancellationToken_.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.ReadAsync(Memory%7BSystem.Byte%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream_ReadAsync_Memory_System_Byte__CancellationToken_.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream.ReadAsync(Memory%7BSystem.Byte%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/WriteOnlyAudioStream.cs/#L22">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/WriteOnlyAudioStream.cs/#L43">View Source</a>
   </span>
   <a id="NextAudio_WriteOnlyAudioStream_ReadAsync_" data-uid="NextAudio.WriteOnlyAudioStream.ReadAsync*"></a>
   <h4 id="NextAudio_WriteOnlyAudioStream_ReadAsync_Memory_System_Byte__CancellationToken_" data-uid="NextAudio.WriteOnlyAudioStream.ReadAsync(Memory{System.Byte},CancellationToken)">ReadAsync(Memory&lt;Byte&gt;, CancellationToken)</h4>
@@ -330,6 +406,10 @@
   <div>
       <span class="xref">IDisposable</span>
   </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="NextAudio.AudioStreamExtensions.html#NextAudio_AudioStreamExtensions_CastToStream_NextAudio_AudioStream_NextAudio_AudioStreamToStreamOptions_">AudioStreamExtensions.CastToStream(AudioStream, AudioStreamToStreamOptions)</a>
+  </div>
 </article>
           </div>
           
@@ -338,10 +418,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_WriteOnlyAudioStream.md&amp;value=---%0Auid%3A%20NextAudio.WriteOnlyAudioStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/WriteOnlyAudioStream.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/WriteOnlyAudioStream.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

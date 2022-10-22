@@ -131,7 +131,7 @@ AudioStream.CastToStream(audioStream);
 <p>Any <code>Seek/SeekAsync</code> operation for streams positions is not supported.</p>
 <h4 id="recommendedsynchronicity">RecommendedSynchronicity</h4>
 <p>The property <code>RecommendedSynchronicity</code> is present in any <code>AudioStream</code> it says to you or for the internal lib what is the recommended synchronicity when reading from the <code>AudioStream</code> or writing in.</p>
-<p>Obs: The lib supports both synchronicitys but some streams doesn't recommend some synchronicitys, (e.g an async-only stream will have your sync operations using <code>.GetAwaiter().GetResult()</code>).</p>
+<p>Obs: The lib supports both synchronicitys but some streams don't recommend some synchronicitys, (e.g an async-only stream will have your sync operations using <code>.GetAwaiter().GetResult()</code>).</p>
 <h4 id="manually-readingwriting">Manually reading/writing</h4>
 <p>NextAudio will always use audio frame buffers for read/write operations.</p>
 <p>This makes the streaming data very easy.</p>
@@ -151,10 +151,27 @@ while ((bytesRead = reader.Read(buffer)) &gt; 0)
     output.Write(frame);
 }
 </code></pre>
-<hr><p>This page was last modified at 10/19/2022 22:45:13 -03:00 (UTC).</p><div class="collapse-container last-modified" id="accordion"><span><span class="arrow-r"></span>Commit Message</span><div><pre><code>Author:    Renan Pinheiro
-Commit:    3316e316f457719510a1a186bf3f410796a8341e
-</code></pre><pre><code class="xml">feat: add matroska doc
-</code></pre></div></div></article>
+<hr><p>This page was last modified at 10/22/2022 01:51:59 -03:00 (UTC).</p><div class="collapse-container last-modified" id="accordion"><span><span class="arrow-r"></span>Commit Message</span><div><pre><code>Author:    Renan Pinheiro
+Commit:    46c35686920505bf3d0d850d628048de2b92c836
+</code></pre><pre><code class="xml">Write docs guides (#82)
+
+* feat: add initial doc files
+
+* feat: docs
+- some fixes in css
+- remove theme switcher
+- articles and glossary section
+- articles/introduction page
+
+* feat: add getting started section
+
+* feat: add matroska doc
+
+* feat: write glossary
+
+* fix: break lines in matroska thanks and references
+
+* fix: typos and grammal errors</code></pre></div></div></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -162,7 +179,7 @@ Commit:    3316e316f457719510a1a186bf3f410796a8341e
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/docs/articles/getting_started/usage.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/docs/articles/getting_started/usage.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

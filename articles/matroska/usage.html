@@ -83,7 +83,7 @@
 <pre><code class="lang-csharp">using var file = AudioStream.CreateFromFile(&quot;test1.mkv&quot;);
 using var demuxer = new MatroskaDemuxer(file);
 </code></pre>
-<p>Matroska supports many tracks inside the container, NextAudio will always select the first audio track inside the container, you change this behavior in the <code>MatroskaDemuxerOptions#TrackSelector</code>.</p>
+<p>Matroska supports many tracks inside the container, NextAudio will always select the first audio track inside the container, you can change this behavior in the <code>MatroskaDemuxerOptions#TrackSelector</code>.</p>
 <pre><code class="lang-csharp">using var file = AudioStream.CreateFromFile(&quot;test1.mkv&quot;);
 using var demuxer = new MatroskaDemuxer(file, new MatroskaDemuxerOptions()
 {
@@ -124,10 +124,27 @@ while ((bytesRead = demuxer.Demux(buffer)) &gt; 0)
     output.Write(frame);
 }
 </code></pre>
-<hr><p>This page was last modified at 10/19/2022 22:45:13 -03:00 (UTC).</p><div class="collapse-container last-modified" id="accordion"><span><span class="arrow-r"></span>Commit Message</span><div><pre><code>Author:    Renan Pinheiro
-Commit:    3316e316f457719510a1a186bf3f410796a8341e
-</code></pre><pre><code class="xml">feat: add matroska doc
-</code></pre></div></div></article>
+<hr><p>This page was last modified at 10/22/2022 01:51:59 -03:00 (UTC).</p><div class="collapse-container last-modified" id="accordion"><span><span class="arrow-r"></span>Commit Message</span><div><pre><code>Author:    Renan Pinheiro
+Commit:    46c35686920505bf3d0d850d628048de2b92c836
+</code></pre><pre><code class="xml">Write docs guides (#82)
+
+* feat: add initial doc files
+
+* feat: docs
+- some fixes in css
+- remove theme switcher
+- articles and glossary section
+- articles/introduction page
+
+* feat: add getting started section
+
+* feat: add matroska doc
+
+* feat: write glossary
+
+* fix: break lines in matroska thanks and references
+
+* fix: typos and grammal errors</code></pre></div></div></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -135,7 +152,7 @@ Commit:    3316e316f457719510a1a186bf3f410796a8341e
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/docs/articles/matroska/usage.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/docs/articles/matroska/usage.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

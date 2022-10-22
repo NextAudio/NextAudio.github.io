@@ -91,6 +91,7 @@
     <div class="level1"><a class="xref" href="NextAudio.AudioStream.html">AudioStream</a></div>
     <div class="level2"><a class="xref" href="NextAudio.ReadOnlyAudioStream.html">ReadOnlyAudioStream</a></div>
     <div class="level3"><span class="xref">AudioDemuxer</span></div>
+      <div class="level4"><a class="xref" href="NextAudio.Matroska.MatroskaDemuxer.html">MatroskaDemuxer</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -105,6 +106,9 @@
       <a class="xref" href="NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_CanWrite">ReadOnlyAudioStream.CanWrite</a>
     </div>
     <div>
+      <a class="xref" href="NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_SetLength_System_Int64_">ReadOnlyAudioStream.SetLength(Int64)</a>
+    </div>
+    <div>
       <a class="xref" href="NextAudio.ReadOnlyAudioStream.html#NextAudio_ReadOnlyAudioStream_Write_ReadOnlySpan_System_Byte__">ReadOnlyAudioStream.Write(ReadOnlySpan&lt;Byte&gt;)</a>
     </div>
     <div>
@@ -117,19 +121,16 @@
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_IsDisposed">AudioStream.IsDisposed</a>
     </div>
     <div>
-      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CanSeek">AudioStream.CanSeek</a>
-    </div>
-    <div>
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Length">AudioStream.Length</a>
     </div>
     <div>
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Position">AudioStream.Position</a>
     </div>
     <div>
-      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Clone">AudioStream.Clone()</a>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_RecommendedSynchronicity">AudioStream.RecommendedSynchronicity</a>
     </div>
     <div>
-      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Seek_System_Int64_SeekOrigin_">AudioStream.Seek(Int64, SeekOrigin)</a>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Clone">AudioStream.Clone()</a>
     </div>
     <div>
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Read_System_Byte___System_Int32_System_Int32_">AudioStream.Read(Byte[], Int32, Int32)</a>
@@ -155,6 +156,21 @@
     <div>
       <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Dispose">AudioStream.Dispose()</a>
     </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CreateFromStream_Stream_NextAudio_StreamToAudioStreamOptions_">AudioStream.CreateFromStream(Stream, StreamToAudioStreamOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CreateFromFile_System_String_">AudioStream.CreateFromFile(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CreateFromFile_System_String_FileStreamOptions_">AudioStream.CreateFromFile(String, FileStreamOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CreateFromFile_System_String_NextAudio_FileAudioStreamOptions_">AudioStream.CreateFromFile(String, FileAudioStreamOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CastToStream_NextAudio_AudioStream_NextAudio_AudioStreamToStreamOptions_">AudioStream.CastToStream(AudioStream, AudioStreamToStreamOptions)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NextAudio.html">NextAudio</a></h6>
   <h6><strong>Assembly</strong>: NextAudio.dll</h6>
@@ -162,14 +178,84 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class AudioDemuxer : ReadOnlyAudioStream</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer__ctor_System_Nullable_ILoggerFactory__.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.%23ctor(System.Nullable%7BILoggerFactory%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L18">View Source</a>
+  </span>
+  <a id="NextAudio_AudioDemuxer__ctor_" data-uid="NextAudio.AudioDemuxer.#ctor*"></a>
+  <h4 id="NextAudio_AudioDemuxer__ctor_System_Nullable_ILoggerFactory__" data-uid="NextAudio.AudioDemuxer.#ctor(System.Nullable{ILoggerFactory})">AudioDemuxer(Nullable&lt;ILoggerFactory&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an instance of <a class="xref" href="NextAudio.AudioDemuxer.html">AudioDemuxer</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioDemuxer(ILoggerFactory? loggerFactory = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ILoggerFactory</span>&gt;</td>
+        <td><span class="parametername">loggerFactory</span></td>
+        <td><p>A logger factory to log audio streaming info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer_CanSeek.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.CanSeek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L25">View Source</a>
+  </span>
+  <a id="NextAudio_AudioDemuxer_CanSeek_" data-uid="NextAudio.AudioDemuxer.CanSeek*"></a>
+  <h4 id="NextAudio_AudioDemuxer_CanSeek" data-uid="NextAudio.AudioDemuxer.CanSeek">CanSeek</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanSeek { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_CanSeek">AudioStream.CanSeek</a></div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_AudioDemuxer_Demux_Span_System_Byte__.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.Demux(Span%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer_Demux_Span_System_Byte__.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.Demux(Span%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/AudioDemuxer.cs/#L28">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L63">View Source</a>
   </span>
   <a id="NextAudio_AudioDemuxer_Demux_" data-uid="NextAudio.AudioDemuxer.Demux*"></a>
   <h4 id="NextAudio_AudioDemuxer_Demux_Span_System_Byte__" data-uid="NextAudio.AudioDemuxer.Demux(Span{System.Byte})">Demux(Span&lt;Byte&gt;)</h4>
@@ -216,10 +302,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_AudioDemuxer_Demux_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.Demux(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer_Demux_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.Demux(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/AudioDemuxer.cs/#L37">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L72">View Source</a>
   </span>
   <a id="NextAudio_AudioDemuxer_Demux_" data-uid="NextAudio.AudioDemuxer.Demux*"></a>
   <h4 id="NextAudio_AudioDemuxer_Demux_System_Byte___System_Int32_System_Int32_" data-uid="NextAudio.AudioDemuxer.Demux(System.Byte[],System.Int32,System.Int32)">Demux(Byte[], Int32, Int32)</h4>
@@ -278,10 +364,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_AudioDemuxer_DemuxAsync_Memory_System_Byte__CancellationToken_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.DemuxAsync(Memory%7BSystem.Byte%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer_DemuxAsync_Memory_System_Byte__CancellationToken_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.DemuxAsync(Memory%7BSystem.Byte%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/AudioDemuxer.cs/#L48">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L83">View Source</a>
   </span>
   <a id="NextAudio_AudioDemuxer_DemuxAsync_" data-uid="NextAudio.AudioDemuxer.DemuxAsync*"></a>
   <h4 id="NextAudio_AudioDemuxer_DemuxAsync_Memory_System_Byte__CancellationToken_" data-uid="NextAudio.AudioDemuxer.DemuxAsync(Memory{System.Byte},CancellationToken)">DemuxAsync(Memory&lt;Byte&gt;, CancellationToken)</h4>
@@ -334,10 +420,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_AudioDemuxer_DemuxAsync_System_Byte___System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.DemuxAsync(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer_DemuxAsync_System_Byte___System_Int32_System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.DemuxAsync(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/AudioDemuxer.cs/#L58">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L93">View Source</a>
   </span>
   <a id="NextAudio_AudioDemuxer_DemuxAsync_" data-uid="NextAudio.AudioDemuxer.DemuxAsync*"></a>
   <h4 id="NextAudio_AudioDemuxer_DemuxAsync_System_Byte___System_Int32_System_Int32_CancellationToken_" data-uid="NextAudio.AudioDemuxer.DemuxAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)">DemuxAsync(Byte[], Int32, Int32, CancellationToken)</h4>
@@ -402,10 +488,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_AudioDemuxer_Read_Span_System_Byte__.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.Read(Span%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer_Read_Span_System_Byte__.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.Read(Span%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/AudioDemuxer.cs/#L12">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L45">View Source</a>
   </span>
   <a id="NextAudio_AudioDemuxer_Read_" data-uid="NextAudio.AudioDemuxer.Read*"></a>
   <h4 id="NextAudio_AudioDemuxer_Read_Span_System_Byte__" data-uid="NextAudio.AudioDemuxer.Read(Span{System.Byte})">Read(Span&lt;Byte&gt;)</h4>
@@ -451,10 +537,10 @@
   <div><a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Read_Span_System_Byte__">AudioStream.Read(Span&lt;Byte&gt;)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_AudioDemuxer_ReadAsync_Memory_System_Byte__CancellationToken_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.ReadAsync(Memory%7BSystem.Byte%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer_ReadAsync_Memory_System_Byte__CancellationToken_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.ReadAsync(Memory%7BSystem.Byte%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/AudioDemuxer.cs/#L18">View Source</a>
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L52">View Source</a>
   </span>
   <a id="NextAudio_AudioDemuxer_ReadAsync_" data-uid="NextAudio.AudioDemuxer.ReadAsync*"></a>
   <h4 id="NextAudio_AudioDemuxer_ReadAsync_Memory_System_Byte__CancellationToken_" data-uid="NextAudio.AudioDemuxer.ReadAsync(Memory{System.Byte},CancellationToken)">ReadAsync(Memory&lt;Byte&gt;, CancellationToken)</h4>
@@ -503,9 +589,134 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_ReadAsync_Memory_System_Byte__CancellationToken_">AudioStream.ReadAsync(Memory&lt;Byte&gt;, CancellationToken)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer_Seek_System_Int64_SeekOrigin_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.Seek(System.Int64%2CSeekOrigin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L29">View Source</a>
+  </span>
+  <a id="NextAudio_AudioDemuxer_Seek_" data-uid="NextAudio.AudioDemuxer.Seek*"></a>
+  <h4 id="NextAudio_AudioDemuxer_Seek_System_Int64_SeekOrigin_" data-uid="NextAudio.AudioDemuxer.Seek(System.Int64,SeekOrigin)">Seek(Int64, SeekOrigin)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long Seek(long offset, SeekOrigin origin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SeekOrigin</span></td>
+        <td><span class="parametername">origin</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_Seek_System_Int64_SeekOrigin_">AudioStream.Seek(Int64, SeekOrigin)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer_SeekAsync_System_Int64_SeekOrigin_CancellationToken_.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer.SeekAsync(System.Int64%2CSeekOrigin%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L38">View Source</a>
+  </span>
+  <a id="NextAudio_AudioDemuxer_SeekAsync_" data-uid="NextAudio.AudioDemuxer.SeekAsync*"></a>
+  <h4 id="NextAudio_AudioDemuxer_SeekAsync_System_Int64_SeekOrigin_CancellationToken_" data-uid="NextAudio.AudioDemuxer.SeekAsync(System.Int64,SeekOrigin,CancellationToken)">SeekAsync(Int64, SeekOrigin, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>When overridden in a derived class, asynchronously sets the position within the current stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ValueTask&lt;long&gt; SeekAsync(long offset, SeekOrigin origin, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>A byte offset relative to the origin parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SeekOrigin</span></td>
+        <td><span class="parametername">origin</span></td>
+        <td><p>A value of type <see cref="!:SeekOrigin"></see> indicating the reference point
+used to obtaint he new position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The token to monitor for cancellation requests.
+The default value is <see cref="!:CancellationToken.None"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ValueTask</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><p>A <see cref="!:ValueTask"></see> that represents an asynchronous operation
+where the result is the new position within the current stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="NextAudio.AudioStream.html#NextAudio_AudioStream_SeekAsync_System_Int64_SeekOrigin_CancellationToken_">AudioStream.SeekAsync(Int64, SeekOrigin, CancellationToken)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="NextAudio.AudioStreamExtensions.html#NextAudio_AudioStreamExtensions_CastToStream_NextAudio_AudioStream_NextAudio_AudioStreamToStreamOptions_">AudioStreamExtensions.CastToStream(AudioStream, AudioStreamToStreamOptions)</a>
   </div>
 </article>
           </div>
@@ -515,10 +726,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/NextAudio/NextAudio/new/74-create-the-docs-auto-deployment/apiSpec/new?filename=NextAudio_AudioDemuxer.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/NextAudio/NextAudio/new/27847b2c86f1d866a552ec6aef581fe0d84affbe/apiSpec/new?filename=NextAudio_AudioDemuxer.md&amp;value=---%0Auid%3A%20NextAudio.AudioDemuxer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NextAudio/NextAudio/blob/74-create-the-docs-auto-deployment/src/NextAudio/AudioDemuxer.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NextAudio/NextAudio/blob/27847b2c86f1d866a552ec6aef581fe0d84affbe/src/NextAudio/AudioDemuxer.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
