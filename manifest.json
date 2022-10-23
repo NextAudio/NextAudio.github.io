@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "CHANGELOG.html",
-          "hash": "sTjSpB2uBqOV3m2D/1jJrfxxdC/e7NgRmvk+KHjzsHQ="
+          "hash": "JAr2EQa/COS8YE0bTLJ3FAJQPyDOUXMh3Yxg5hVm4Ik="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.AudioDemuxer.html",
-          "hash": "Vyy6JSSl7g/6n0tfB9Ee3Rpw2nWegaut4fyfV6672hM="
+          "hash": "zAC88eCY8oSKju8N+XXo0ew6OVpkbF5BHV2R69V26zU="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.AudioStream.html",
-          "hash": "uHuoOkIgzMsdxkBziUyWxYpYjsi1eZhuq9A1ZUrHbOY="
+          "hash": "eYzms6oxLILX27GdgZTsXQHsnHguQ1Ud3/98hVOpVTw="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.AudioStreamExtensions.html",
-          "hash": "t75KHK/jxgJzO5SKo2C3MqHx0rZhakYro56ORRsLQ6U="
+          "hash": "vavqVUhO077FS736kuLsyg4j/+bMn7rWUCNTYINHhtM="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.AudioStreamToStreamOptions.html",
-          "hash": "TtrR/sgLV8EK2WSiW0R2Os0O4AUNTCg/ypoQiYqK4WE="
+          "hash": "4vNnN7efWRgCFsp2MzjUm7LR2a+UfpYN9fegr1c9Huk="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.FileAudioStreamOptions.html",
-          "hash": "1lB+l+/DC05MolRCrdep+j7cfXprejEwjZs66OMVPa0="
+          "hash": "IX0b8u2ah5LRfVQZ2kuoS1xfYKv4lPsEoX5wLoKysUY="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.EbmlReader.html",
-          "hash": "gSPa71c1LDFNZWgiauSMxz+Bw4VLHRT8F0mD+2FuYNo="
+          "hash": "eXHK4WpjBtdpdqytYGJTaTURyp6zgxPKE9oIM6d+/R4="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.MatroskaDemuxer.html",
-          "hash": "K0lgLmkEOiyHe83c1ZG1U8gRtR3sIyABZMO8G+5gl78="
+          "hash": "lOyIaZMq1LKaIUcH2UFGxfoUNJQG93kDcMHgZ7gXw6I="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.MatroskaDemuxerOptions.html",
-          "hash": "SkMMvh3o0vm7mPA8NaLCXaGmSCrevIf7Te4QzkjyV6A="
+          "hash": "f360i5fjUgYWlwC1GIRbqM4DoN8DvIXLnDS4n3lzglo="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.Models..html",
-          "hash": "jMJ0plWoZFcXaJTULj9dXyWqkxzRNG0sQCKvpa56S+E="
+          "hash": "rjEHcSTcptag9iBEJ9JlzQq1aqvQu0aT3AOwS+n4++c="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.Models.EbmlValueType.html",
-          "hash": "XHaTKbdO38hl/7Q3LR7ZPbWmgvMzvBpEqdfsiNFgY4o="
+          "hash": "9YbcxyPXccWRxIbLcj/1XuKBFbHjvoUr3nezroUEB5w="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.Models.MatroskaBlock.html",
-          "hash": "cHe1QGAUgnA++iXyxe0q9VDvD/QK4U9ypR0nb3RHlZE="
+          "hash": "PzVNOW3zi4IbRQJB773lFa13fjU4MGN0gbjya/VSskg="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.Models.MatroskaBlockLacingType.html",
-          "hash": "y8kRJZk/sKuLCwbGpBnBc4w/wd5+y8btkiiI/v309BI="
+          "hash": "6Mzhm63BeELZpAuI6nsP+ELONZTyxmzQP9xOOBnNC0I="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.Models.MatroskaElement.html",
-          "hash": "avnVHWHbVIub09/YrJC/tgU9C65OK5EwNUofsYmX8ME="
+          "hash": "Mcx5fRRJc9NVkhp5RhJZeLHwH6qZbCpUaPZPYD9jMFI="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.Models.MatroskaElementType.html",
-          "hash": "ecGO2cVV5aA81/zaTagDTAkLe02d8RlXgVaECslQPsw="
+          "hash": "/JA2vpvUXsbOEpRjqTutpptgeDXipd+vH0YptFbMX14="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.Models.MatroskaTrackType.html",
-          "hash": "tn3WCFYojBKBjzyMMQXTWDp1wTVq4u8gxpwTDGmUskY="
+          "hash": "YQ+xR2ovtjGxoQyX7nOP+q7h52bRRa7OHGbocTDzMH0="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.Models.VInt.html",
-          "hash": "b6HQzyop5WzR3RTJNQCXuDeP291c1wtl8QTNFi6qhUI="
+          "hash": "/MMLcsQMdifVrA+89HgXr02bnziXCg8zTY9Lt+OvAGM="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.TrackSelector.html",
-          "hash": "tqxisBC6/28E2NdznpN+UimDXoEdaBC1awhfxZ/gC+Y="
+          "hash": "hq0AdD0stl531DNePgvIzjHywccg+HObaFhjluKZ3og="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Matroska.Utils.MatroskaUtils.html",
-          "hash": "RDKNNLwhyTkgIhXtGpGX+IvMkoqoWwDgDFDx9R8Zxd0="
+          "hash": "WVs7DKduBRDu6WACOpA+psNf+JTKA5enhJhDIAt5szQ="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.ReadOnlyAudioStream.html",
-          "hash": "6xB8KavDKrpZRO/vfRLPSOk/Dpa11juCV9CxOnY1p4c="
+          "hash": "yb3URnOjt3y6LJn/BEefBdy6QsxUdLCHjfo3MPRMirg="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.RecommendedSynchronicity.html",
-          "hash": "Dul01RkKACbTGgoLh2XOT356Xud2P5NG3UkeuwR8AWU="
+          "hash": "KSImoV4pSD0s/Eutb2xPrzvC6ECRRcZAJ8rTdWlNwDw="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.StreamToAudioStreamOptions.html",
-          "hash": "dfFpmS3z6Qcrs147i7Y/j8T0Zotv2erFNRMftxA4sEs="
+          "hash": "xOq9isEq/k5qXZc95cA55TqoFHDXa6FLKEhfH/woJdk="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.Utils.AudioStreamUtils.html",
-          "hash": "yrtjj5e11Y2p1SNVpDTAVPjMu5ob23Cd2M6flTmIYfM="
+          "hash": "WWOaEB0PD92+zlGDFE+rmvX9y9e0Y15x3oGdNjLKZwA="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NextAudio.WriteOnlyAudioStream.html",
-          "hash": "7o6morzOG8xlhM9HkzoX6Eq2yOzGDFICfevbhcW+ZuU="
+          "hash": "YOX3gyNeq1qtffrQiDK1R6Etq/pJLX5xGqL9bdNX3hM="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "N3ASTEjw16HUAV2fZN1+lz0G/VEH9JyQxhZzIij2fiY="
+          "hash": "41Bq9IeU6GY7u9ABUcr0J6iJvaMD4f2/eIosjCqYv+g="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/getting_started/installation.html",
-          "hash": "E5BG+HvoOscn6mmFXf7/aQyyC4j6WybmA39EO5anNZQ="
+          "hash": "7n7IKKBH/v6fF7BZyCUxHW9uGY5SM28Nu+LBKK/mAFk="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/getting_started/requirements.html",
-          "hash": "df1X3KuRXt8LzwXj0R07cB94JakieqlP8xUyGUOdBgg="
+          "hash": "AK8NzwHwSqV/z2dXEmar2F1xsnoDyaD8mHhI0iBB8mA="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/getting_started/usage.html",
-          "hash": "3YhOTXIQARpyz2iQrUYJUYJHZ84dME0L/K5gkdgM424="
+          "hash": "5DreKo69tGBwODcLpvzloX+pfCWZn+0e8qU/nz8xAIQ="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/introduction.html",
-          "hash": "Sb+EXJhm1nVXLbbScqCIPUs3onumpcX1/p8W/LkhoC0="
+          "hash": "pUKssk6TFzp0d1y+jwycdCCqpjwYXgMt/tbcBpJ7VfE="
         }
       },
       "is_incremental": false,
@@ -438,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/matroska/installation.html",
-          "hash": "G7QBdIkibJHqtJl/Okp8lu6kbG+OEPGcNx+BxsK/H8M="
+          "hash": "Cbl3I84Wtu/5BZi2BuOyi235lBxjIPtABEeQWZRfJd8="
         }
       },
       "is_incremental": false,
@@ -450,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/matroska/introduction.html",
-          "hash": "l0/VbCC3j7BP78wrrDCtD3BZcjDT99oiDe5is5AuiJM="
+          "hash": "eqeQ+N7MwxlScIwXqs2MrblTkrZChJ+GcwClxipPrQs="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/matroska/usage.html",
-          "hash": "Dy9CVJZ8GfFr+pRbrUJi2XI1ngtiGfEKrz1BUI0TTVQ="
+          "hash": "eK1I4a+qwQvxCwSCDbd+M0M4Mm3GFcdzPymqGWFm+J8="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "glossary.html",
-          "hash": "whiqsBpfzLo0ArR+h9pY0MisYoku5td0l4Hd9G1prwI="
+          "hash": "cjoN7BLoQ6R/mvzy+LkhQdo3jYoDRyzaMdklI+95DzM="
         }
       },
       "is_incremental": false,
@@ -531,7 +531,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EG9FETVkvVK9AysoXbpdzO7ZHU7jauZok4RBF3Z6kuY="
+          "hash": "+gWBoJdtr/fGPNcMCFLAvoNERiIAvdBrnIIOY0OvyAI="
         }
       },
       "is_incremental": false,
